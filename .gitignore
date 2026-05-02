@@ -228,7 +228,8 @@ aux*.pdb
 # Other stuff
 /scripts
 /faxes
-rust_g.dm
+#rust_g.dm
+# TEMPORARILY COMMENTED BECAUSE LINUX BYOND REQUIRES THIS TO COMPILE?
 jukebox.json
 //bin/merge-test-prs.bat
 wiki_example_paperwork.txt
