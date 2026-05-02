@@ -1,6 +1,0 @@
-ruamel.yaml
-PyGithub
-PyYAML
-beautifulsoup4
-setuptools
-requests

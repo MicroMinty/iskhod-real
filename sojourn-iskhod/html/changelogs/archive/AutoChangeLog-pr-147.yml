@@ -1,5 +1,0 @@
-author: AMcilraith
-changes:
-  - tweak: Alarms now default to scrub mode instead of off.
-date: '2025-08-01'
-delete-after: false

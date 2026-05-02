@@ -1,5 +1,0 @@
-author: AMcilraith
-changes:
-  - balance: Removed slowdown from recovery rig, allowing for faster movement.
-date: '2025-09-20'
-delete-after: false

@@ -1,7 +1,0 @@
-pygit2
-bidict
-Pillow
-
-# changelogs
-PyYaml
-beautifulsoup4

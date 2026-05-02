@@ -1,0 +1,331 @@
+/datum/reagent/organic/blood
+	data = new/list("donor" = null, "species" = "Human", "blood_DNA" = null, "blood_type" = null, "blood_color" = "#A10808", "resistances" = null, "trace_chem" = null, "carrion" = null)
+	name = "Blood"
+	id = "blood"
+	reagent_state = LIQUID
+	metabolism = REM * 5
+	color = "#C80000"
+	taste_description = "iron"
+	taste_mult = 1.3
+	scannable = TRUE
+	glass_icon_state = "glass_red"
+	glass_name = "tomato juice"
+	glass_desc = "Are you sure this is tomato juice?"
+	nerve_system_accumulations = 0
+	common = TRUE //Everyone knows what blood looks like
+	liver_dependent = FALSE // Blood doesn't require liver processing
+
+/datum/reagent/organic/blood/initialize_data(var/newdata)
+	..()
+	if(data && data["blood_color"])
+		color = data["blood_color"]
+	return
+
+/datum/reagent/organic/blood/synthetic
+	id = "synthetic_blood"
+	name = "Synthetic Blood"
+	description = "A blue, oxygen-carrying fluid used in full-body prosthetics."
+	color = "#365583ff"
+	data = new/list("donor" = null, "species" = "Synthetic", "blood_DNA" = null, "blood_type" = null, "blood_color" = "#247CFF", "resistances" = null, "trace_chem" = null, "carrion" = null)
+
+/datum/reagent/organic/blood/oil
+	id = "synth_oil"
+	name = "Synthetic Oil"
+	description = "A black, viscous lubricant used in synthetic lifeforms."
+	color = "#0C0C0C"
+	data = new/list("donor" = null, "species" = "Synthetic", "blood_DNA" = null, "blood_type" = null, "blood_color" = "#0C0C0C", "resistances" = null, "trace_chem" = null, "carrion" = null)
+
+/datum/reagent/organic/blood/aquatic
+	id = "aquatic_blood"
+	name = "Aquatic Blood"
+	description = "A specialized blood variant found in Mar'qua and Akula species."
+	color = "#8097dfff"
+	data = new/list("donor" = null, "species" = "Aquatic", "blood_DNA" = null, "blood_type" = null, "blood_color" = "#597DE8", "resistances" = null, "trace_chem" = null, "carrion" = null)
+
+/datum/reagent/organic/blood/opifex
+	id = "opifex_blood"
+	name = "Opifex Blood"
+	description = "A golden-hued blood variant found in Opifex and related nitrogen-breathing species."
+	color = "#d7910eff"
+	data = new/list("donor" = null, "species" = "Opifex", "blood_DNA" = null, "blood_type" = null, "blood_color" = "#D7AE0E", "resistances" = null, "trace_chem" = null, "carrion" = null)
+
+/datum/reagent/organic/blood/chtmant
+	id = "chtmant_blood"
+	name = "Cht'mant Blood"
+	description = "A thick, dark hemolymph found in Cht'mant species."
+	color = "#3c7240ff"
+	data = new/list("donor" = null, "species" = "Cht'mant", "blood_DNA" = null, "blood_type" = null, "blood_color" = "#3C7240", "resistances" = null, "trace_chem" = null, "carrion" = null)
+
+/datum/reagent/organic/blood/reptile
+	id = "reptile_blood"
+	name = "Reptile Blood"
+	description = "Cold-blooded reptile blood."
+	color = "#b0c01b"
+	data = new/list("donor" = null, "species" = "Reptile", "blood_DNA" = null, "blood_type" = null, "blood_color" = "#B0C01B", "resistances" = null, "trace_chem" = null, "carrion" = null)
+
+/datum/reagent/organic/blood/plant
+	id = "plant_blood"
+	name = "Plant Sap"
+	description = "A thick, greenish sap-like fluid found in plant-based species."
+	color = "#228B22"
+	data = new/list("donor" = null, "species" = "Plant", "blood_DNA" = null, "blood_type" = null, "blood_color" = "#228B22", "resistances" = null, "trace_chem" = null, "carrion" = null)
+
+/datum/reagent/organic/blood/slime
+	id = "aulvatic_fluid"
+	name = "Aulvatic Fluid"
+	description = "A viscous, neon-green fluid that serves as the lifeblood of Aulvae."
+	color = "#05FF9B"
+	data = new/list("donor" = null, "species" = "Slime", "blood_DNA" = null, "blood_type" = null, "blood_color" = "#05FF9B", "resistances" = null, "trace_chem" = null, "carrion" = null)
+
+/datum/reagent/organic/blood/get_data() // Just in case you have a reagent that handles data differently.
+	return data.Copy()
+
+/datum/reagent/organic/blood/touch_turf(turf/simulated/T)
+	if(!istype(T) || volume < 3)
+		return TRUE
+	// Always use reagent data (host's blood_DNA and blood_type) regardless of species or bloodtype
+	blood_splatter(T, src, 1)
+	return TRUE
+
+/datum/reagent/organic/blood/affect_ingest(mob/living/carbon/M, alien, effect_multiplier)
+
+	if(VAMPIRE in M.mutations)
+		M.adjustNutrition(20) // For hunger
+		if(ishuman(M))
+			var/mob/living/carbon/human/H = M
+			H.sanity.onNonAlcohol(src, effect_multiplier)
+			H.sanity.onAlcohol(src, effect_multiplier)
+			apply_sanity_effect(M, effect_multiplier)
+			LEGACY_SEND_SIGNAL(M, COMSIG_CARBON_HAPPY, src, ON_MOB_DRUG)
+
+		return //No other badness
+
+	var/effective_dose = dose
+	if(issmall(M)) effective_dose *= 2
+
+	if(effective_dose > 5)
+		M.add_chemical_effect(CE_TOXIN, effect_multiplier)
+	if(effective_dose > 15)
+		M.add_chemical_effect(CE_TOXIN, effect_multiplier)
+
+/datum/reagent/organic/blood/affect_blood(mob/living/carbon/M, alien, effect_multiplier)
+	M.inject_blood(src, volume)
+	remove_self(volume)
+
+#define WATER_LATENT_HEAT 19000 // How much heat is removed when applied to a hot turf, in J/unit (19000 makes 120 u of water roughly equivalent to 4L)
+/datum/reagent/water
+	name = "Water"
+	id = "water"
+	description = "A ubiquitous chemical substance that is composed of hydrogen and oxygen."
+	reagent_state = LIQUID
+	color = "#0064C877"
+	metabolism = REM * 10
+	taste_description = "water"
+	glass_icon_state = "glass_clear"
+	glass_name = "water"
+	glass_desc = "The father of all refreshments."
+	nerve_system_accumulations = 0
+	liver_dependent = FALSE // Water doesn't require liver processing
+	var/fire_suppression_effect = 1 //19000 times this.
+	reagent_type = "Water"
+	common = TRUE //You know what water is.
+
+/datum/reagent/water/affect_ingest(mob/living/carbon/M, alien, effect_multiplier)
+	if(M.stats.getPerk(PERK_STAY_HYDRATED))
+		M.adjustOxyLoss(-0.6 * effect_multiplier)
+		M.heal_organ_damage(0.3 * effect_multiplier, 0.3 * effect_multiplier)
+		M.add_chemical_effect(CE_ANTITOX, 0.3 * effect_multiplier)
+		M.add_chemical_effect(CE_BLOODCLOT, 0.1)
+	if(!ishuman(M))
+		M.adjustHalLoss(-0.5)
+
+/datum/reagent/water/extinguisher
+	name = "Extinguisher"
+	id = "abwater"
+	description = "A mix of water, with chemicals to reduce heat, oil and suppress fire with heavy particulates."
+	taste_description = "watered down chemicals"
+	glass_icon_state = "glass_clear"
+	glass_name = "water"
+	glass_desc = "The father of all refreshments, this one has floating particulates in it..."
+	nerve_system_accumulations = 50 //Chemical soup
+	fire_suppression_effect = 3 //Three times better at putting out fire than water.
+
+/datum/reagent/water/extinguisher/touch_turf(turf/T)
+	..()
+	if(volume >= 1)
+		if(istype(T, /turf/simulated))
+			var/turf/simulated/S = T
+			if(S.wet >= 2)
+				S.wet_floor(1, TRUE)
+		for(var/obj/effect/O in T)
+			if(istype(O,/obj/effect/decal/cleanable/liquid_fuel)) //We only clean flue spills
+				qdel(O)
+		for(var/mob/living/carbon/slime/M in T)
+			M.adjustToxLoss(rand(15, 25))
+
+	T.color = "white"
+	return TRUE
+
+/datum/reagent/water/holywater
+	name = "Holy Water"
+	description = "A ubiquitous chemical substance that is composed of hydrogen and oxygen with the blessings of faith."
+	fire_suppression_effect = 1.1 //When your hopeful this works...
+	id = "holywater"
+
+/datum/reagent/water/holywater/affect_ingest(mob/living/carbon/human/M, alien, effect_multiplier)
+	var/obj/item/implant/core_implant/I = M.get_core_implant(/obj/item/implant/core_implant/cruciform)
+	if(!I && !I.wearer) //Do we have a core implant?
+		return
+	if(!I.active) //Is it active?
+		return
+	M.heal_organ_damage(0, 0.2 * effect_multiplier, 0, 3 * effect_multiplier)
+	..()
+
+/datum/reagent/water/holywater/touch_turf(turf/T)
+	..()
+	if(volume >= 5)
+		T.holy = 1
+	return TRUE
+
+/datum/reagent/water/touch_turf(turf/simulated/T)
+	if(!istype(T))
+		return TRUE
+
+	var/datum/gas_mixture/environment = T.return_air()
+	var/min_temperature = T0C + 100 // 100C, the boiling point of water
+
+	var/hotspot = (locate(/obj/fire) in T)
+	if(hotspot && !istype(T, /turf/space))
+		var/datum/gas_mixture/lowertemp = T.remove_air(T:air:total_moles)
+		lowertemp.temperature = max(min(lowertemp.temperature-2000, lowertemp.temperature / 2), 0)
+		lowertemp.react()
+		T.assume_air(lowertemp)
+		qdel(hotspot)
+
+	if (environment && environment.temperature > min_temperature) // Abstracted as steam or something
+		var/removed_heat = between(0, volume * (WATER_LATENT_HEAT * fire_suppression_effect), -environment.get_thermal_energy_change(min_temperature))
+		environment.add_thermal_energy(-removed_heat)
+		if (prob(5))
+			T.visible_message(SPAN_WARNING("The water sizzles as it lands on \the [T]!"))
+
+	else if(volume >= 10)
+		T.wet_floor(1)
+	return TRUE
+
+/datum/reagent/water/touch_obj(obj/O)
+	if(istype(O, /obj/item/reagent_containers/snacks/monkeycube))
+		var/obj/item/reagent_containers/snacks/monkeycube/cube = O
+		if(!cube.wrapped)
+			cube.Expand()
+
+/datum/reagent/water/touch_mob(var/mob/living/L, var/amount)
+	if(istype(L))
+		L.fire_stacks = 0
+		L.ExtinguishMob()
+		/*
+		var/needed = L.fire_stacks * 10
+		if(amount > needed)
+			L.fire_stacks = 0
+			L.ExtinguishMob()
+			remove_self(needed)
+		else
+			L.adjust_fire_stacks(-(amount / 10))
+			remove_self(amount)
+		*/
+
+/datum/reagent/water/affect_touch(mob/living/carbon/M, alien, effect_multiplier)
+	if(isslime(M))
+		var/mob/living/carbon/slime/S = M
+		S.adjustToxLoss(20 * effect_multiplier) // Babies have 150 health, adults have 200; So, 10 units and 13.5
+		if(!S.client)
+			if(S.Target) // Like cats
+				S.Target = null
+				++S.Discipline
+		if(dose >= MTR(effect_multiplier, CHEM_TOUCH))
+			S.visible_message(SPAN_WARNING("[S]'s flesh sizzles where the water touches it!"), SPAN_DANGER("Your flesh burns in the water!"))
+
+/datum/reagent/toxin/fuel
+	name = "Welding fuel"
+	id = "fuel"
+	description = "Required for welders. Inflammable."
+	taste_description = "gross metal"
+	reagent_state = LIQUID
+	color = "#660000"
+	touch_met = 5
+
+	glass_icon_state = "dr_gibb_glass"
+	glass_name = "welder fuel"
+	glass_desc = "Unless you are an industrial tool, this is probably not safe for consumption."
+	common = TRUE //Ubiquitous enough for everyone to have dealt with it, there are canisters of it all over the place.
+
+/datum/reagent/toxin/fuel/touch_turf(turf/T)
+	new /obj/effect/decal/cleanable/liquid_fuel(T, volume)
+	remove_self(volume)
+	return TRUE
+
+/datum/reagent/toxin/fuel/affect_blood(mob/living/carbon/M, alien, effect_multiplier)
+	M.add_chemical_effect(CE_TOXIN, 2 * (issmall(M) ? effect_multiplier * 2 : effect_multiplier))
+
+/datum/reagent/toxin/fuel/touch_mob(mob/living/L, var/amount)
+	if(istype(L))
+		L.adjust_fire_stacks(amount / 10) // Splashing people with welding fuel to make them easy to ignite!
+
+// This is only really used to poison vox.
+/datum/reagent/oxygen
+	name = "Oxygen"
+	id = "oxygen"
+	description = "An ubiquitous oxidizing agent."
+	taste_description = "nothing"
+	reagent_state = LIQUID
+	color = COLOR_GRAY80
+	scannable = FALSE  // Don't show oxygen in medical scanners
+
+/datum/reagent/carbon_monoxide
+	name = "Carbon Monoxide"
+	id = "carbon_monoxide"
+	description = "A dangerous carbon comubstion byproduct."
+	taste_description = "stale air"
+	reagent_state = LIQUID
+	color = COLOR_GRAY80
+	metabolism = 0.05 // As with helium.
+
+/datum/reagent/carbon_monoxide/affect_blood(mob/living/carbon/human/M, removed)
+	if(!istype(M))
+		return
+	var/warning_message
+	var/warning_prob = 10
+	var/dosage = volume // Simplified dosage tracking
+	if(dosage >= 3)
+		warning_message = pick("extremely dizzy","short of breath","faint","confused")
+		warning_prob = 15
+		M.adjustOxyLoss(10,20)
+		M.co2_alert = 1
+	else if(dosage >= 1.5)
+		warning_message = pick("dizzy","short of breath","faint","momentarily confused")
+		M.co2_alert = 1
+		M.adjustOxyLoss(3,5)
+	else if(dosage >= 0.25)
+		warning_message = pick("a little dizzy","short of breath")
+		warning_prob = 10
+		M.co2_alert = 0
+	else
+		M.co2_alert = 0
+	if(warning_message && prob(warning_prob))
+		to_chat(M, SPAN_WARNING("You feel [warning_message]."))
+
+/datum/reagent/helium
+	name = "Helium"
+	id = "helium"
+	description = "A noble gas. It makes your voice squeaky."
+	taste_description = "nothing"
+	reagent_state = LIQUID
+	color = COLOR_GRAY80
+	metabolism = 0.05 // So that low dosages have a chance to build up in the body.
+
+/datum/reagent/ammonia
+	name = "Ammonia"
+	id = "ammonia"
+	description = "A caustic substance commonly used in cleaning products."
+	taste_description = "cleaning products"
+	reagent_state = LIQUID
+	color = COLOR_GRAY80
