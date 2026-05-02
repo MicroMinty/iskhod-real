@@ -203,10 +203,10 @@ def process_pr_report(pr_number, author, tags, yaml_dumper, merge_date=None):
 def main():
     parser = argparse.ArgumentParser(description="Generate changelog yml from PR :cl: blocks.")
     parser.add_argument("--all", action="store_true", help="Process every merged PR in the repo.")
-    parser.add_argument("--pr", type=int, nargs="+", metavar="PR", dest="pr_numbers", help="Process only these PR numbers (open or merged). Uses epic-new-soj-thing/Sojourn-Iskhod.")
+    parser.add_argument("--pr", type=int, nargs="+", metavar="PR", dest="pr_numbers", help="Process only these PR numbers (open or merged). Uses epic-new-soj-thing/Iskhod-Outpost-13.")
     parser.add_argument("--limit", type=int, default=0, metavar="N", help="With --all, stop after N PRs (0 = no limit).")
     parser.add_argument("--base", default="master", metavar="BRANCH", help="With --all, only PRs merged into this branch (default: master).")
-    parser.add_argument("--repo", default=None, metavar="OWNER/REPO", help="GitHub repo for single-commit mode (ignored with --all; --all always uses epic-new-soj-thing/Sojourn-Iskhod).")
+    parser.add_argument("--repo", default=None, metavar="OWNER/REPO", help="GitHub repo for single-commit mode (ignored with --all; --all always uses epic-new-soj-thing/Iskhod-Outpost-13).")
     parser.add_argument("-v", "--verbose", action="store_true", help="With --all, print every PR considered.")
     args = parser.parse_args()
 
@@ -216,7 +216,7 @@ def main():
         sys.exit(1)
 
     # --all and --pr always use the canonical repo
-    canonical_repo = "epic-new-soj-thing/Sojourn-Iskhod"
+    canonical_repo = "epic-new-soj-thing/Iskhod-Outpost-13"
     repo_name = canonical_repo if (args.all or args.pr_numbers) else (args.repo or os.getenv("GITHUB_REPOSITORY"))
     if not repo_name:
         print("Error: GITHUB_REPOSITORY environment variable is not set (or use --repo OWNER/REPO).", file=sys.stderr)

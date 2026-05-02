@@ -23,7 +23,7 @@ from typing import Optional
 BYOND_UPDATE_PATH = os.environ.get("BYOND_UPDATE_PATH", "/home/server/bin/byond-update")
 REPO_PATH = os.environ.get("REPO_PATH", ".")
 TESTMERGES_FILE = os.environ.get("TESTMERGES_FILE", "/home/server/start/tmp/testmerges.txt")
-BYOND_UPDATE_REMOTE_URL = os.environ.get("BYOND_UPDATE_REMOTE_URL", "https://github.com/epic-new-soj-thing/Sojourn-Iskhod.git")
+BYOND_UPDATE_REMOTE_URL = os.environ.get("BYOND_UPDATE_REMOTE_URL", "https://github.com/epic-new-soj-thing/Iskhod-Outpost-13.git")
 
 
 # Exit codes for check_and_pull (so DM can notify only when there are new changes)

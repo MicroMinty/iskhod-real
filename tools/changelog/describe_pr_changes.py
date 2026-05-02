@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Iterate merged PRs in epic-new-soj-thing/Sojourn-Iskhod, fetch each PR's file changes and diff,
+Iterate merged PRs in epic-new-soj-thing/Iskhod-Outpost-13, fetch each PR's file changes and diff,
 generate changelog yml from :cl: blocks (same as generate_cl), and optionally use AI to describe changes.
 
 Usage:
@@ -28,7 +28,7 @@ import requests
 from github import Github, Auth
 from ruamel import yaml as ruamel_yaml
 
-CANONICAL_REPO = "epic-new-soj-thing/Sojourn-Iskhod"
+CANONICAL_REPO = "epic-new-soj-thing/Iskhod-Outpost-13"
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPORTS_DIR = SCRIPT_DIR / "pr_reports"
 

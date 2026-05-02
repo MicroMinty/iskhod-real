@@ -15,7 +15,7 @@ if not GITHUB_TOKEN:
     print("Error: GITHUB_TOKEN environment variable not set")
     exit(1)
 
-REPO_NAME = "epic-new-soj-thing/Sojourn-Iskhod"  # owner/repo
+REPO_NAME = "epic-new-soj-thing/Iskhod-Outpost-13"  # owner/repo
 WORKFLOW_FILE = "make_changelog.yml"         # workflow filename
 MAX_PRS = 500                                    # optional limit
 DEBUG = True

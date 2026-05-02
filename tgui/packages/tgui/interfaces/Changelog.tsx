@@ -241,11 +241,11 @@ export const Changelog = () => {
       </p>
       <p>
         {'Source and issue tracker: '}
-        <a href="https://github.com/epic-new-soj-thing/Sojourn-Iskhod/">
-          Sojourn-Iskhod on GitHub
+        <a href="https://github.com/epic-new-soj-thing/Iskhod-Outpost-13/">
+          Iskhod-Outpost-13 on GitHub
         </a>
         {'. Based on '}
-        <a href="https://github.com/epic-new-soj-thing/Sojourn-Iskhod/">
+        <a href="https://github.com/epic-new-soj-thing/Iskhod-Outpost-13/">
           CEV Eris
         </a>
         {'. Code under AGPLv3. Content under CC BY-SA 3.0.'}
