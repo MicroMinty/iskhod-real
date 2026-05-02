@@ -1,0 +1,56 @@
+name: Generate Changelog
+
+on:
+  push:
+    branches:
+      - master
+      - changelog-fixes
+      - testmerge
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch to run changelog for"
+        required: true
+        default: "master"
+
+jobs:
+  generate-changelog:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4 # Upgraded to v4
+        with:
+          ref: ${{ github.event_name == 'workflow_dispatch' && inputs.branch || github.ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: false
+          set-safe-directory: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r tools/changelog/requirements.txt
+
+      - name: Generate changelog yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BASE="${{ github.event_name == 'workflow_dispatch' && inputs.branch || github.ref_name }}"
+          python tools/changelog/generate_cl.py --all --base master
+
+      - name: Compile HTML changelog
+        run: python tools/changelog/ss13_genchangelog.py html/changelog.html html/changelogs/autochangelogs
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add html/changelog.html html/changelogs/
+          git diff --staged --quiet || git commit -m "Automatic changelog compile [ci skip]"
+          git push

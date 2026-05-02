@@ -1,0 +1,27 @@
+name: 'Check for merge conflicts'
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened]
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Check for conflicts
+        uses: mschilde/auto-label-merge-conflicts@master
+        with:
+          CONFLICT_LABEL_NAME: 'Merge Conflict'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WAIT_MS: 10000
+          MAX_RETRIES: 5

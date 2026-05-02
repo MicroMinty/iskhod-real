@@ -1,0 +1,41 @@
+bar
+ship
+Voidwolf ship
+rage cage
+garden
+farm
+hydroponics farm
+village
+city
+skyscraper
+shuttle
+muddy trench
+snowy trench
+prison cell
+engine compartment
+escape pod
+Vesalius-Andra Medical Division
+Vesalius-Andra Research Division
+Frontier Logistics
+Artificer Guild
+Ranger
+Absolutism Church
+Vasily Dokuchaev
+Mining hulk
+Iskhod
+Bar
+Brig of a ship
+Engineering Department
+Medical Department
+Cargo Department
+Research Department
+Security Department
+Primary tool storage
+Maintenance
+Deep maintenance
+Bluespace
+cyberspace
+mountains
+pool
+dump
+madness
