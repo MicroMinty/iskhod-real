@@ -16,7 +16,7 @@ cd ci_test
 echo "Starting DreamDaemon (background). Will watch logs for 'Initializations complete' and exit when seen. Timeout: ${TIMEOUT_SECONDS}s"
 
 # Start DreamDaemon in background
-DreamDaemon sojourn-iskhod.dmb -close -trusted -verbose -params "log-directory=ci" &
+DreamDaemon Iskhod-Outpost-13.dmb -close -trusted -verbose -params "log-directory=ci" &
 DD_PID=$!
 
 # Ensure background DD is killed if this script is terminated
