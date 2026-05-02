@@ -1,11 +1,11 @@
 ###Files and folders specified here will never be tracked.
 
 #Ignore everything in datafolder and subdirectories
-/data/**/*
+#/data/**/*
 /tmp/**/*
 
 #Ignore byond config folder.
-/cfg/**/*
+#/cfg/**/*
 
 #Ignore cached sound files.
 /sound/tts_cache/**/*
