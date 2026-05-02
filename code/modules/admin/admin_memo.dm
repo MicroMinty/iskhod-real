@@ -1,4 +1,4 @@
-define MEMOFILE "data/memo.sav"	//where the memos are saved
+#define MEMOFILE "data/memo.sav"	//where the memos are saved
 
 ADMIN_VERB_ADD(/client/proc/admin_memo, R_ADMIN, FALSE)
 //admin memo system. show/delete/write.
