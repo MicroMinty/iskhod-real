@@ -335,14 +335,14 @@ var/world_topic_spam_protect_time = world.timeofday
 
 //	s += "<b>[station_name()]</b>";
 	s += " ("
-	s += "<a href=\"https://discord.com/invite/e9dGKqJQTz\">" //Change this to wherever you want the hub to link to.
+	s += "<a href=\"https://discord.com/invite/yUhqK78x5P\">" //Change this to wherever you want the hub to link to.
 //	s += "[game_version]"
 	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
 	s += ")"
-	s += "18+ M/HRP, Frequent Events, Evolving Storyline, RuneChat enabled."
+	s += "18+ M/HRP, Sojourn offshoot, Evolving Storyline, RuneChat enabled."
 	s += "<br>"
-	s += "Map: Iskhod Colony"
+	s += "Map: Iskhod Outpost"
 	s += "<br>"
 	s += "Storyteller"
 
