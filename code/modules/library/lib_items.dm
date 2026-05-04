@@ -278,6 +278,7 @@
 
 /// At roundstart: fill all fiction and nonfiction bookcases with one copy of each book from their category, grouped by type so each shelf gets a contiguous section of types.
 /hook/roundstart/proc/distribute_library_books()
+	return TRUE // this is AI slopcode that causes a massive runtime and fills up CPU, bypassing it until i can remove it entirely or replace it with something that works.
 	// Run after a short delay so the map and all book types are fully available
 	spawn(5)
 		distribute_library_books_impl()
