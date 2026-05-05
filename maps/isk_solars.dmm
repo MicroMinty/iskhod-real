@@ -83,6 +83,12 @@
 "cT" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/space)
 "dr" = (
@@ -95,6 +101,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/space)
+"dD" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating/under,
+/area/space)
 "dU" = (
 /obj/machinery/space_heater,
 /obj/machinery/alarm{
@@ -103,6 +117,7 @@
 /turf/simulated/floor/tiled/dark/danger,
 /area/space)
 "eD" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_warning,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "eV" = (
@@ -163,6 +178,10 @@
 	temperature = 240
 	},
 /area/space)
+"gl" = (
+/obj/random/scrap/dense_weighted,
+/turf/simulated/floor/fixed/hydrotile,
+/area/space)
 "hf" = (
 /obj/machinery/vending/fitness,
 /turf/simulated/floor/tiled/dark/orangecorner,
@@ -221,6 +240,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating/under,
 /area/space)
 "kv" = (
@@ -246,6 +270,7 @@
 "lu" = (
 /obj/machinery/door/airlock/multi_tile/glass,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "lX" = (
@@ -276,10 +301,34 @@
 "mY" = (
 /turf/simulated/floor/fixed/hydrotile,
 /area/space)
+"mZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark/orangecorner,
+/area/space)
 "nh" = (
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "9,23"
 	},
+/area/space)
+"nS" = (
+/obj/structure/cable/ender{
+	id = "solars";
+	name = "solars power cable"
+	},
+/obj/structure/cable{
+	dir = 1
+	},
+/turf/simulated/floor/plating/under,
 /area/space)
 "oj" = (
 /turf/simulated/floor/snow/smooth{
@@ -314,6 +363,12 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	dir = 8
 	},
 /turf/simulated/floor/plating/under,
 /area/space)
@@ -351,12 +406,26 @@
 /obj/item/stack/cable_coil,
 /obj/item/stack/cable_coil,
 /obj/item/stack/cable_coil,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	dir = 4
+	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/space)
 "sB" = (
 /turf/simulated/floor/asteroid/dirt/mud{
 	temperature = 240
 	},
+/area/space)
+"sG" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating/under,
 /area/space)
 "tp" = (
 /obj/machinery/vending/gamers,
@@ -463,6 +532,12 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	dir = 8
+	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/space)
 "Ac" = (
@@ -546,6 +621,7 @@
 /area/space)
 "Cf" = (
 /obj/machinery/door/airlock/multi_tile/glass,
+/obj/effect/floor_decal/industrial_plant/steel_grate_warning,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "Cy" = (
@@ -568,6 +644,12 @@
 	req_access = newlist();
 	req_one_access = list(24,10)
 	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "Dg" = (
@@ -582,6 +664,14 @@
 	temperature = 240
 	},
 /area/space)
+"DG" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/carpet/oracarpet,
+/area/space)
 "DO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -593,6 +683,7 @@
 	dir = 4
 	},
 /obj/structure/table/reinforced,
+/obj/random,
 /turf/simulated/floor/carpet/oracarpet,
 /area/space)
 "Er" = (
@@ -618,6 +709,25 @@
 /area/space)
 "Fd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark/orangecorner,
+/area/space)
+"GW" = (
+/obj/effect/mist,
+/turf/simulated/floor/fixed/hydrotile,
+/area/space)
+"Ht" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/space)
 "Id" = (
@@ -704,6 +814,11 @@
 "MM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/space)
 "Nn" = (
@@ -758,6 +873,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/effect/floor_decal/industrial_plant/steel_grate_border{
+	dir = 1
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
@@ -841,6 +959,7 @@
 /area/space)
 "TW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "Up" = (
@@ -850,6 +969,9 @@
 "UG" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 2
+	},
+/obj/effect/floor_decal/industrial_plant/steel_grate_border{
+	dir = 1
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
@@ -901,6 +1023,14 @@
 	nitrogen = 82.1472;
 	temperature = 240
 	},
+/area/space)
+"XU" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating/under,
 /area/space)
 "XV" = (
 /obj/machinery/vending/engivend,
@@ -4621,10 +4751,10 @@ oj
 oj
 Ay
 RR
-Pc
-CD
-ux
-ux
+Ht
+jz
+DG
+DG
 sv
 wz
 oj
@@ -4723,7 +4853,7 @@ ve
 oj
 Ay
 RR
-Pc
+mZ
 CD
 ux
 Ts
@@ -4825,11 +4955,11 @@ Ay
 Ay
 Ay
 vK
-Pc
+mZ
 CD
 CD
 CD
-hf
+XV
 Ay
 oj
 oj
@@ -4927,11 +5057,11 @@ bh
 Zi
 Ay
 yj
-Pc
+mZ
 CD
 CD
 CD
-XV
+hf
 Ay
 Up
 Up
@@ -5230,7 +5360,7 @@ Ay
 AE
 Ry
 Ry
-Ry
+XU
 Ay
 vv
 bt
@@ -5329,10 +5459,10 @@ oj
 oj
 oj
 Ay
-Ry
-Ry
-Ry
-Ry
+nS
+sG
+sG
+dD
 Ay
 Vd
 qj
@@ -7087,7 +7217,7 @@ oj
 ve
 oj
 oj
-oj
+hm
 oj
 oj
 oj
@@ -7189,9 +7319,9 @@ oj
 oj
 oj
 oj
-oj
-oj
-oj
+bm
+bm
+bm
 oj
 oj
 oj
@@ -7277,12 +7407,12 @@ oj
 ve
 oj
 oj
+li
 oj
 oj
 oj
 oj
-oj
-oj
+hm
 oj
 oj
 oj
@@ -8483,11 +8613,11 @@ BI
 BI
 BI
 hm
-oj
-oj
-pZ
-oj
-oj
+mY
+mY
+mY
+mY
+mY
 oj
 oj
 oj
@@ -8684,7 +8814,7 @@ BI
 BI
 BI
 BI
-mY
+GW
 mY
 mY
 mY
@@ -8786,6 +8916,7 @@ BI
 BI
 BI
 BI
+GW
 mY
 mY
 mY
@@ -8804,7 +8935,6 @@ mY
 mY
 mY
 mY
-oj
 oj
 oj
 oj
@@ -8888,7 +9018,7 @@ BI
 BI
 BI
 BI
-mY
+GW
 mY
 mY
 mY
@@ -9209,7 +9339,7 @@ DA
 oj
 oj
 oj
-mY
+oj
 mY
 mY
 mY
@@ -9313,8 +9443,8 @@ oj
 pZ
 oj
 oj
-mY
-mY
+oj
+oj
 mY
 mY
 mY
@@ -9417,8 +9547,8 @@ oj
 oj
 oj
 oj
-mY
-mY
+oj
+oj
 mY
 mY
 mY
@@ -10044,8 +10174,8 @@ mY
 mY
 mY
 mY
-oj
-oj
+bm
+bm
 oj
 oj
 oj
@@ -10141,12 +10271,12 @@ BI
 BI
 BI
 BI
-BI
-BI
 mY
 mY
 mY
 mY
+mY
+gl
 BI
 BI
 BI
@@ -10244,11 +10374,11 @@ BI
 BI
 BI
 BI
-BI
-BI
 mY
 mY
 mY
+mY
+gl
 BI
 BI
 BI
@@ -10347,15 +10477,15 @@ BI
 BI
 BI
 BI
-BI
-BI
-BI
-BI
-BI
-BI
-BI
-BI
-BI
+mY
+mY
+mY
+mY
+mY
+mY
+mY
+mY
+gl
 BI
 BI
 BI
@@ -10451,14 +10581,14 @@ BI
 BI
 BI
 BI
-BI
-BI
-BI
-BI
-BI
-BI
-BI
-BI
+gl
+gl
+mY
+mY
+mY
+mY
+gl
+gl
 BI
 BI
 BI
@@ -10556,14 +10686,14 @@ BI
 BI
 BI
 BI
-BI
-BI
-BI
-BI
-BI
-BI
-BI
-BI
+mY
+mY
+mY
+mY
+mY
+mY
+mY
+GW
 BI
 BI
 BI
@@ -10658,14 +10788,14 @@ BI
 BI
 BI
 BI
-BI
-BI
-BI
-BI
-BI
-BI
-BI
-BI
+gl
+gl
+mY
+mY
+mY
+mY
+mY
+GW
 BI
 BI
 BI
@@ -10762,12 +10892,12 @@ BI
 BI
 BI
 BI
-BI
-BI
-BI
-BI
-BI
-BI
+gl
+mY
+mY
+mY
+mY
+GW
 BI
 BI
 BI
