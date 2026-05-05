@@ -78,7 +78,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/danger,
+/turf/simulated/floor/carpet/oracarpet,
 /area/space)
 "cT" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -131,6 +131,13 @@
 	nitrogen = 82.1472;
 	temperature = 240
 	},
+/area/space)
+"fD" = (
+/obj/machinery/space_heater,
+/obj/machinery/alarm{
+	pixel_y = 27
+	},
+/turf/simulated/floor/tiled/dark/orangecorner,
 /area/space)
 "fN" = (
 /obj/structure/bed/chair,
@@ -435,7 +442,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/orangecorner,
+/turf/simulated/floor/carpet/oracarpet,
 /area/space)
 "yj" = (
 /obj/machinery/vending/cola,
@@ -581,6 +588,13 @@
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/space)
+"Eo" = (
+/obj/structure/window/reinforced/iskhod{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/turf/simulated/floor/carpet/oracarpet,
+/area/space)
 "Er" = (
 /obj/machinery/power/solar,
 /obj/structure/cable{
@@ -634,6 +648,15 @@
 "Kk" = (
 /turf/unsimulated/mineral/cold,
 /area/space)
+"Kw" = (
+/obj/random/scrap/moderate_weighted,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0";
+	oxygen = 21.8366;
+	nitrogen = 82.1472;
+	temperature = 240
+	},
+/area/space)
 "KJ" = (
 /obj/structure/table/marble,
 /obj/item/storage/box/donkpockets,
@@ -648,7 +671,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/orangecorner,
+/turf/simulated/floor/carpet/oracarpet,
 /area/space)
 "LN" = (
 /obj/structure/cable{
@@ -792,6 +815,12 @@
 /obj/structure/table/reinforced,
 /turf/simulated/floor/carpet/oracarpet,
 /area/space)
+"Ts" = (
+/obj/structure/window/reinforced/iskhod{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/oracarpet,
+/area/space)
 "Tx" = (
 /obj/structure/closet/emcloset,
 /obj/effect/floor_decal/industrial_plant,
@@ -860,7 +889,7 @@
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/danger,
+/turf/simulated/floor/carpet/oracarpet,
 /area/space)
 "Xz" = (
 /obj/structure/railing/grey{
@@ -3263,9 +3292,9 @@ Ay
 Ay
 Ay
 CD
-CD
-CD
-CD
+ux
+ux
+ux
 LJ
 kv
 Ay
@@ -3365,14 +3394,14 @@ Ry
 Ry
 Ay
 CD
-CD
-CD
-CD
+ux
+ux
+ux
 LJ
 PT
 lu
 cC
-KZ
+ux
 Cf
 CD
 CD
@@ -3467,14 +3496,14 @@ dr
 nh
 ad
 CD
-CD
-CD
-CD
+ux
+ux
+ux
 xA
 TJ
 TW
 VY
-KZ
+ux
 eD
 CD
 CD
@@ -3569,9 +3598,9 @@ dr
 nh
 ad
 CD
-CD
-CD
-CD
+ux
+ux
+ux
 LJ
 kv
 Ay
@@ -3671,9 +3700,9 @@ dr
 nh
 ad
 CD
-CD
-CD
-CD
+ux
+ux
+ux
 LJ
 kv
 Ay
@@ -3773,9 +3802,9 @@ Ry
 Ry
 Ay
 CD
-CD
-CD
-CD
+ux
+ux
+ux
 LJ
 kv
 Ay
@@ -3874,10 +3903,10 @@ Ay
 Ay
 Ay
 Ay
-Vd
 CD
-CD
-CD
+ux
+ux
+ux
 LJ
 kv
 wz
@@ -4078,7 +4107,7 @@ oj
 DA
 oj
 Ay
-Qo
+fD
 CD
 CD
 CD
@@ -4690,15 +4719,15 @@ oj
 oj
 oj
 oj
-oj
+ve
 oj
 Ay
 RR
 Pc
 CD
 ux
-ux
-ux
+Ts
+Eo
 wz
 oj
 oj
@@ -5109,7 +5138,7 @@ cd
 cd
 lu
 cC
-KZ
+ux
 Cf
 CD
 CD
@@ -5211,7 +5240,7 @@ Fd
 Fd
 TW
 VY
-KZ
+ux
 eD
 CD
 CD
@@ -5608,8 +5637,8 @@ oj
 oj
 oj
 oj
-oj
-oj
+Kw
+Kw
 Ay
 CD
 qm
@@ -5711,7 +5740,7 @@ oj
 oj
 oj
 ve
-oj
+Kw
 Ay
 CD
 ux
@@ -7258,14 +7287,14 @@ oj
 oj
 oj
 oj
-oj
-oj
-oj
+Kw
+bm
+bm
 BI
 BI
 BI
 BI
-oj
+Kw
 oj
 oj
 oj
@@ -7471,7 +7500,7 @@ BI
 BI
 BI
 BI
-oj
+Kw
 oj
 oj
 oj
