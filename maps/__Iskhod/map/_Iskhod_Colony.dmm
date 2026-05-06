@@ -435,7 +435,6 @@
 /area/iskhod/security/prison)
 "afr" = (
 /obj/random/cluster/roaches/low_chance,
-/obj/structure/invislight,
 /turf/simulated/floor/asteroid/dirt/flood,
 /area/iskhod/recreation/fight_club)
 "aft" = (
@@ -5675,7 +5674,6 @@
 	color = "f3cbbc"
 	},
 /obj/structure/cable/yellow,
-/obj/structure/invislight,
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/engine_room)
 "bxs" = (
@@ -13989,12 +13987,6 @@
 	},
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/iskhod/rnd/robotics)
-"dHX" = (
-/obj/effect/window_lwall_spawn/reinforced/polarized,
-/obj/machinery/door/firedoor,
-/obj/structure/invislight,
-/turf/simulated/floor/tiled/dark,
-/area/iskhod/pros/foreman)
 "dIq" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -24531,11 +24523,6 @@
 	},
 /turf/simulated/floor/wood/wild3,
 /area/iskhod/command/bridge)
-"gzG" = (
-/obj/structure/catwalk,
-/obj/structure/invislight,
-/turf/simulated/floor/plating/under,
-/area/iskhod/pit/surface)
 "gzI" = (
 /obj/structure/boulder,
 /turf/simulated/floor/tiled/steel/danger,
@@ -26604,7 +26591,6 @@
 /obj/structure/statue/candles{
 	pixel_x = -16
 	},
-/obj/structure/invislight,
 /turf/simulated/floor/wood/wild1,
 /area/iskhod/absolutism/chapel)
 "heZ" = (
@@ -33158,7 +33144,6 @@
 "iRi" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/machinery/power/supermatter,
-/obj/structure/invislight,
 /turf/simulated/floor/reinforced/airless,
 /area/iskhod/engineering/engine_room)
 "iRN" = (
@@ -34377,11 +34362,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/main/f1section3)
-"jio" = (
-/obj/structure/catwalk,
-/obj/structure/invislight,
-/turf/simulated/floor/plating/under,
-/area/iskhod/pros)
 "jiA" = (
 /mob/living/simple/chicken,
 /obj/machinery/light{
@@ -44083,7 +44063,6 @@
 "lPB" = (
 /obj/machinery/power/emitter,
 /obj/structure/cable/yellow,
-/obj/structure/invislight,
 /turf/simulated/floor/reinforced,
 /area/iskhod/engineering/engine_room)
 "lPJ" = (
@@ -51867,7 +51846,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/hologram/holopad,
-/obj/structure/invislight,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/crew_quarters/bar)
 "nQR" = (
@@ -57826,11 +57804,6 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/side/f2section3)
-"pxV" = (
-/obj/structure/barricade,
-/obj/structure/invislight,
-/turf/simulated/floor/industrial/navy_large_slates,
-/area/iskhod/maintenance/northcave)
 "pyf" = (
 /turf/simulated/wall/r_wall/iskhod_blue,
 /area/iskhod/command/swo)
@@ -59515,7 +59488,6 @@
 "pXf" = (
 /obj/machinery/hologram/holopad,
 /obj/effect/floor_decal/industrial_plant,
-/obj/structure/invislight,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/crew_quarters/bar)
 "pXk" = (
@@ -59612,10 +59584,6 @@
 /obj/random/scrap/moderate_weighted/low_chance,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/side/f2section2)
-"pYJ" = (
-/obj/structure/invislight,
-/turf/open/pool,
-/area/iskhod/crew_quarters/pool)
 "pYM" = (
 /obj/machinery/power/sensor{
 	long_range = 1;
@@ -64025,7 +63993,6 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/structure/invislight,
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/engine_room)
 "rit" = (
@@ -64166,7 +64133,6 @@
 "rkq" = (
 /obj/structure/catwalk,
 /obj/structure/closet/crate/trashcart,
-/obj/structure/invislight,
 /turf/simulated/floor/plating/under,
 /area/iskhod/hallway/surface/section1)
 "rkz" = (
@@ -66503,7 +66469,6 @@
 "rVL" = (
 /obj/structure/catwalk,
 /obj/structure/closet/crate/internals,
-/obj/structure/invislight,
 /turf/simulated/floor/plating/under,
 /area/iskhod/hallway/surface/section1)
 "rVM" = (
@@ -69007,7 +68972,6 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/structure/invislight,
 /turf/simulated/floor/carpet/turcarpet,
 /area/iskhod/command/bridge)
 "sED" = (
@@ -69241,12 +69205,6 @@
 	},
 /turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/crew_quarters/cafeteria)
-"sIm" = (
-/obj/effect/window_lwall_spawn/reinforced/polarized,
-/obj/machinery/door/firedoor,
-/obj/structure/invislight,
-/turf/simulated/floor/tiled/dark/cargo,
-/area/iskhod/pros/foreman)
 "sIx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -80937,7 +80895,6 @@
 	dir = 4
 	},
 /obj/structure/cable/yellow,
-/obj/structure/invislight,
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/engine_room)
 "vVv" = (
@@ -87454,7 +87411,6 @@
 /area/iskhod/hallway/main/f1section4)
 "xLg" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/invislight,
 /turf/simulated/floor/industrial/ornate,
 /area/iskhod/absolutism/office)
 "xLi" = (
@@ -103108,7 +103064,7 @@ ufy
 ufy
 ufy
 ufy
-pYJ
+ufy
 ufy
 ufy
 ufy
@@ -104926,7 +104882,7 @@ ufy
 ufy
 ufy
 ufy
-pYJ
+ufy
 jAb
 ufy
 ufy
@@ -108678,7 +108634,7 @@ bem
 bem
 xEE
 xEE
-pxV
+wOd
 ezS
 ezS
 ezS
@@ -158075,8 +158031,8 @@ cWB
 fNF
 kHm
 dil
-iFe
-iFe
+egk
+egk
 iFe
 iFe
 ajk
@@ -158480,12 +158436,12 @@ jEF
 jEF
 jEF
 iFe
-iFe
+egk
 nKb
 nKb
 nKb
 iFe
-nKb
+iFe
 nKb
 nKb
 nKb
@@ -158687,8 +158643,8 @@ nKb
 nKb
 nKb
 eyD
-nKb
-nKb
+kjH
+kjH
 nKb
 nKb
 nKb
@@ -189485,7 +189441,7 @@ dNs
 ffK
 ffK
 ffK
-gzG
+ffK
 ffK
 ffK
 uDK
@@ -194519,7 +194475,7 @@ ycV
 ycV
 ycV
 iVI
-sIm
+dTZ
 rJI
 iVI
 iVI
@@ -195124,7 +195080,7 @@ ycV
 ycV
 ycV
 ycV
-dHX
+rJI
 fGR
 smT
 uan
@@ -197964,7 +197920,7 @@ rQs
 bvX
 vQd
 wpG
-jio
+wpG
 jgd
 bvX
 rZe
