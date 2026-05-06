@@ -8,7 +8,7 @@
 	commit = rustg_git_revparse("HEAD")
 	if(commit)
 		date = rustg_git_commit_date(commit)
-	originmastercommit = rustg_git_revparse("origin/main")
+	originmastercommit = rustg_git_revparse("origin/master")
 
 /datum/getrev/proc/load_tgs_info()
 	testmerge = world.TgsTestMerges()
@@ -25,7 +25,7 @@
 	var/list/msg = list()
 	msg += "Running /Iskhod-Outpost-13/ revision: [date]"
 	if(originmastercommit)
-		msg += "origin/main: [originmastercommit]"
+		msg += "origin/master: [originmastercommit]"
 
 	for(var/line in testmerge)
 		var/datum/tgs_revision_information/test_merge/tm = line

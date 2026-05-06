@@ -74,7 +74,7 @@ var/next_station_date_change = 1 DAYS
 			midseconds = (sec%60)
 			output = midhours*1000+midminutes*100+midseconds //No need to option the rounding here, seconds are floored in line 1
 		else //Someone specified a precision outside the bounds? That's a paddlin
-			log_and_message_admins("time2nums was called by an idiot who gave it invalid precision. Yell at them in #code-dev.")
+			log_and_message_admins("time2nums was called by an idiot who gave it invalid precision. Yell at them in #development-misc.")
 			output = 0
 	return output
 
