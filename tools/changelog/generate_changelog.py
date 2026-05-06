@@ -53,10 +53,10 @@ def ref_exists(ref: str) -> bool:
 def compute_base_ref(base: Optional[str]) -> str:
     if base:
         return base
-    # Prefer upstream/master if exists, else origin/master
+    # Prefer upstream/master if exists, else origin/main
     if ref_exists("upstream/master"):
         return "upstream/master"
-    return "origin/master"
+    return "origin/main"
 
 
 def compute_start_commit(base_ref: str, since_ref: Optional[str]) -> str:
@@ -335,7 +335,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         pass
     parser = argparse.ArgumentParser()
     mode = parser.add_mutually_exclusive_group()
-    parser.add_argument("--base", default=None, help="Base reference to compare against (default upstream/master or origin/master)")
+    parser.add_argument("--base", default=None, help="Base reference to compare against (default upstream/master or origin/main)")
     parser.add_argument("--since", default=None, help="Optional starting ref; if set uses <since>..HEAD")
     parser.add_argument("--left", default=None, help="Left ref for two-way comparison (e.g., upstream/master)")
     parser.add_argument("--right", default=None, help="Right ref for two-way comparison (e.g., soj/master)")
