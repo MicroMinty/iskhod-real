@@ -11170,6 +11170,17 @@
 	tag = "icon-escpodwall3"
 	},
 /area/shuttle/surface_transport_lz)
+"cXC" = (
+/obj/structure/railing{
+	dir = 8;
+	tag = "icon-railing0 (WEST)"
+	},
+/obj/structure/railing{
+	dir = 1;
+	tag = "icon-railing0 (NORTH)"
+	},
+/turf/simulated/floor/tiled/dark/danger,
+/area/iskhod/security/maintpost)
 "cXH" = (
 /obj/machinery/papershredder,
 /obj/machinery/alarm{
@@ -13495,13 +13506,6 @@
 	},
 /turf/simulated/floor/fixed/hydrotile,
 /area/turret_protected/ai_upload)
-"dBb" = (
-/obj/structure/railing{
-	dir = 8;
-	tag = "icon-railing0 (WEST)"
-	},
-/turf/simulated/wall/rock/snow,
-/area/iskhod/pros/shuttle)
 "dBc" = (
 /obj/structure/table/reinforced,
 /obj/item/device/lighting/toggleable/lamp/green,
@@ -14874,13 +14878,6 @@
 	req_one_access = list()
 	},
 /turf/simulated/shuttle/floor/mining,
-/area/iskhod/pros/shuttle)
-"dWM" = (
-/obj/structure/railing{
-	dir = 4;
-	tag = "icon-railing0 (EAST)"
-	},
-/turf/simulated/wall/rock/snow,
 /area/iskhod/pros/shuttle)
 "dWT" = (
 /obj/structure/closet/wall_mounted/emcloset{
@@ -18559,13 +18556,6 @@
 /obj/effect/floor_decal/industrial/hatch/blue,
 /turf/simulated/floor/tiled/dark/danger,
 /area/iskhod/outside/inside_colony)
-"eWL" = (
-/obj/structure/railing{
-	dir = 1;
-	tag = "icon-railing0 (NORTH)"
-	},
-/turf/simulated/wall/rock/snow,
-/area/iskhod/pros/shuttle_landing_zone)
 "eWP" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
@@ -53433,13 +53423,6 @@
 	},
 /turf/simulated/floor/tiled/dark/cargo,
 /area/shuttle/surface_transport_lz)
-"ooW" = (
-/obj/structure/railing{
-	dir = 1;
-	tag = "icon-railing0 (NORTH)"
-	},
-/turf/simulated/wall/rock/snow,
-/area/iskhod/pros/shuttle)
 "ooX" = (
 /obj/machinery/atmospherics/unary/vent_scrubber,
 /obj/machinery/light{
@@ -56391,12 +56374,6 @@
 	icon_state = "10,12"
 	},
 /area/shuttle/vasiliy_shuttle_area)
-"pdE" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/simulated/wall/rock/snow,
-/area/iskhod/pros/shuttle)
 "pdF" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -67574,14 +67551,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/iskhod/engineering/engine_smes)
-"sgW" = (
-/obj/structure/catwalk,
-/obj/machinery/light{
-	brightness_power = 1;
-	dir = 8
-	},
-/turf/simulated/floor/plating/under,
-/area/iskhod/security/maintpost)
 "sgX" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/spray/chemsprayer,
@@ -68729,13 +68698,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/iskhod/command/cbo)
-"sye" = (
-/obj/structure/railing{
-	dir = 4;
-	icon_state = "railing0"
-	},
-/turf/simulated/wall/rock/snow,
-/area/iskhod/pros/shuttle)
 "syl" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/wood/wild1,
@@ -71630,6 +71592,17 @@
 	icon_state = "8,23"
 	},
 /area/iskhod/hallway/main/stairwell)
+"tnz" = (
+/obj/structure/railing{
+	dir = 4;
+	tag = "icon-railing0 (EAST)"
+	},
+/obj/structure/railing{
+	dir = 1;
+	tag = "icon-railing0 (NORTH)"
+	},
+/turf/simulated/floor/tiled/dark/danger,
+/area/iskhod/security/maintpost)
 "tnI" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial_plant/steel_grate_border{
@@ -85293,10 +85266,6 @@
 	},
 /turf/simulated/floor/tiled/dark/danger,
 /area/iskhod/security/maintpost)
-"xcL" = (
-/obj/structure/railing,
-/turf/simulated/wall/rock/snow,
-/area/iskhod/pros/shuttle)
 "xcN" = (
 /obj/structure/table/standard,
 /obj/random/tool_upgrade/rare/always_spawn,
@@ -219840,7 +219809,7 @@ nDb
 nDb
 gMg
 mYU
-sgW
+ruC
 gMg
 mfU
 mfU
@@ -223265,8 +223234,8 @@ mfU
 mfU
 mfU
 mfU
-xed
-gQO
+mfU
+cXC
 gQO
 ltA
 xmd
@@ -223467,8 +223436,8 @@ mfU
 mfU
 mfU
 mfU
-xed
-uNz
+mfU
+sjp
 uNz
 uNz
 uNz
@@ -223669,8 +223638,8 @@ mfU
 mfU
 mfU
 mfU
-xed
-xcC
+mfU
+tnz
 xcC
 ltA
 xcC
@@ -227270,7 +227239,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 aAK
 mfU
@@ -227472,7 +227441,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 aAK
 nDb
@@ -227674,7 +227643,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 aAK
 nDb
@@ -228078,9 +228047,9 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 gcV
-ooW
+nDb
 nDb
 nDb
 nDb
@@ -228284,25 +228253,25 @@ fct
 gcV
 fct
 fct
-dWM
-dWM
+nDb
+nDb
 fct
-dWM
-dWM
-dWM
-dWM
+nDb
+nDb
+nDb
+nDb
 fct
-dWM
-dWM
-dWM
-dWM
-dWM
+nDb
+nDb
+nDb
+nDb
+nDb
 fct
-dWM
-dWM
-dWM
-dWM
-dWM
+nDb
+nDb
+nDb
+nDb
+nDb
 fct
 fct
 mfU
@@ -228482,7 +228451,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 rFy
 aSR
 pfL
@@ -228684,7 +228653,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 rFy
 pfL
 pfL
@@ -228886,7 +228855,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 rFy
 pfL
 kVg
@@ -229290,7 +229259,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 rFy
 pfL
 fQN
@@ -229492,7 +229461,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 rFy
 pfL
 fQN
@@ -229694,7 +229663,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 rFy
 pfL
 fQN
@@ -230502,7 +230471,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 rFy
 pfL
 xaK
@@ -230704,7 +230673,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 rFy
 pfL
 fQN
@@ -230906,7 +230875,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 rFy
 pfL
 fQN
@@ -231108,7 +231077,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 rFy
 pfL
 fQN
@@ -231511,7 +231480,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 fct
 rFy
 pfL
@@ -231713,7 +231682,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 mrP
 rFy
 pfL
@@ -231915,7 +231884,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 qvp
 dxn
@@ -232122,25 +232091,25 @@ sch
 nUQ
 fct
 fct
-dBb
-dBb
+nDb
+nDb
 fct
-dBb
-dBb
-dBb
-dBb
+nDb
+nDb
+nDb
+nDb
 fct
-dBb
-dBb
-dBb
-dBb
-dBb
+nDb
+nDb
+nDb
+nDb
+nDb
 fct
-dBb
-dBb
-dBb
-dBb
-dBb
+nDb
+nDb
+nDb
+nDb
+nDb
 fct
 fct
 mfU
@@ -232319,10 +232288,10 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 nUQ
-ooW
+nDb
 nDb
 nDb
 nDb
@@ -232516,11 +232485,11 @@ mfU
 nDb
 nDb
 fct
-sye
+nDb
 fct
-sye
-sye
-sye
+nDb
+nDb
+nDb
 fct
 sch
 nUQ
@@ -232726,7 +232695,7 @@ sch
 sch
 sch
 nUQ
-ooW
+nDb
 nDb
 nDb
 nDb
@@ -232918,7 +232887,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 hOc
 mkn
@@ -232928,7 +232897,7 @@ mkn
 mkn
 mkn
 gvp
-ooW
+nDb
 nDb
 nDb
 nDb
@@ -233124,12 +233093,12 @@ fct
 sch
 nUQ
 fct
-pdE
-pdE
-pdE
+nDb
+nDb
+nDb
 fct
-pdE
-pdE
+nDb
+nDb
 fct
 nDb
 nDb
@@ -233322,10 +233291,10 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 nUQ
-ooW
+nDb
 mfU
 mfU
 mfU
@@ -233694,7 +233663,7 @@ mfU
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 aAK
 mfU
@@ -233726,10 +233695,10 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 gcV
-ooW
+nDb
 mfU
 mfU
 mfU
@@ -233896,7 +233865,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 aAK
 mfU
@@ -233928,10 +233897,10 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 gcV
-ooW
+nDb
 mfU
 mfU
 mfU
@@ -234130,10 +234099,10 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 gcV
-ooW
+nDb
 mfU
 mfU
 mfU
@@ -234300,7 +234269,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 aAK
 mfU
@@ -234502,7 +234471,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 aAK
 mfU
@@ -234534,10 +234503,10 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 gcV
-ooW
+nDb
 mfU
 mfU
 mfU
@@ -234704,7 +234673,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 aAK
 mfU
@@ -234736,10 +234705,10 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 gcV
-ooW
+nDb
 mfU
 mfU
 mfU
@@ -234906,7 +234875,7 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 aAK
 mfU
@@ -234938,10 +234907,10 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 gcV
-ooW
+nDb
 mfU
 mfU
 mfU
@@ -235342,10 +235311,10 @@ nDb
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 gcV
-ooW
+nDb
 mfU
 mfU
 mfU
@@ -235544,10 +235513,10 @@ mfU
 nDb
 nDb
 nDb
-xcL
+nDb
 sch
 gcV
-ooW
+nDb
 mfU
 mfU
 mfU
@@ -235746,10 +235715,10 @@ mfU
 mfU
 mfU
 nDb
-xcL
+nDb
 sch
 gcV
-ooW
+nDb
 mfU
 mfU
 mfU
@@ -238223,7 +238192,7 @@ ygc
 bKL
 wCi
 tks
-eWL
+rai
 rai
 rai
 rai
@@ -238425,7 +238394,7 @@ ygc
 bKL
 wCi
 tks
-eWL
+rai
 rai
 rai
 rai
@@ -238627,7 +238596,7 @@ ygc
 bKL
 wCi
 tks
-eWL
+rai
 rai
 rai
 rai
