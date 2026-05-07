@@ -13633,6 +13633,11 @@
 	},
 /turf/simulated/floor/tiled/steel/danger,
 /area/iskhod/command/armory)
+"dDN" = (
+/turf/simulated/shuttle/floor/mining{
+	icon_state = "9,23"
+	},
+/area/turbolift/mountain/transition1)
 "dEf" = (
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
@@ -19525,6 +19530,9 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/engine_room)
+"fkE" = (
+/turf/simulated/floor/industrial/navy_slates,
+/area/turbolift/mountain/transition1)
 "fkQ" = (
 /obj/machinery/door/firedoor,
 /obj/effect/window_lwall_spawn,
@@ -26683,7 +26691,7 @@
 /area/iskhod/command/tcommsat/chamber)
 "hgv" = (
 /turf/simulated/floor/industrial/navy_slates,
-/area/iskhod/engineering/engine_monitoring)
+/area/turbolift/mountain/colony)
 "hgD" = (
 /obj/effect/floor_decal/industrial/warningred,
 /obj/effect/floor_decal/industrial/stand_clear/red,
@@ -31872,7 +31880,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/crew_quarters/cafeteria)
+/area/iskhod/hallway/main/f1section3)
 "iBd" = (
 /obj/structure/table/bench/standard,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -47745,6 +47753,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/iskhod/engineering/engine_room)
 "mOw" = (
@@ -51213,6 +51226,9 @@
 /obj/random/pouch/low_chance,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/iskhod/pros/shop)
+"nGN" = (
+/turf/simulated/floor/industrial/navy_large_slates,
+/area/turbolift/mountain/transition1)
 "nGQ" = (
 /obj/machinery/light/floor,
 /turf/simulated/floor/tiled/white/cyancorner,
@@ -52403,7 +52419,7 @@
 /area/iskhod/outside/inside_colony)
 "nYF" = (
 /turf/simulated/floor/industrial/navy_large_slates,
-/area/iskhod/engineering/engine_monitoring)
+/area/turbolift/mountain/colony)
 "nYM" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border{
 	dir = 1
@@ -55848,20 +55864,6 @@
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering)
-"oWI" = (
-/obj/structure/catwalk,
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/plating/under,
-/area/iskhod/pros/shuttle)
 "oWO" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -69259,6 +69261,9 @@
 /obj/effect/floor_decal/industrial_plant/border,
 /turf/simulated/floor/plating/under,
 /area/iskhod/hallway/surface/section1)
+"sHE" = (
+/turf/simulated/floor/plating/under,
+/area/turbolift/mountain/transition1)
 "sHH" = (
 /obj/machinery/computer/cryopod{
 	pixel_x = 32
@@ -74238,7 +74243,7 @@
 /area/junk_tractor_beam)
 "tXp" = (
 /turf/simulated/floor/plating/under,
-/area/iskhod/engineering/engine_monitoring)
+/area/turbolift/mountain/colony)
 "tXu" = (
 /obj/structure/ore_box,
 /obj/effect/floor_decal/industrial/danger,
@@ -80046,6 +80051,18 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/main/f1section4)
+"vFG" = (
+/obj/structure/cable/ender{
+	id = "solars";
+	name = "solars power cable"
+	},
+/obj/effect/floor_decal/industrial/warning/full,
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating/under,
+/area/iskhod/engineering/engine_room)
 "vFJ" = (
 /obj/structure/sink{
 	pixel_y = -22
@@ -81891,7 +81908,7 @@
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "9,23"
 	},
-/area/iskhod/engineering/engine_monitoring)
+/area/turbolift/mountain/colony)
 "wiA" = (
 /obj/structure/window/reinforced/iskhod{
 	dir = 4
@@ -86872,19 +86889,6 @@
 /obj/random/powercell/low_chance,
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/dungeon/outside/abandoned_outpost)
-"xAc" = (
-/obj/structure/catwalk,
-/obj/structure/cable/cyan{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "West APC";
-	pixel_x = -28
-	},
-/turf/simulated/floor/plating/under,
-/area/iskhod/pros/shuttle)
 "xAe" = (
 /turf/simulated/open,
 /area/iskhod/maintenance/undergroundfloor2north)
@@ -111413,7 +111417,7 @@ eNH
 pQE
 nzO
 xSw
-fJN
+vFG
 mOu
 gmA
 khB
@@ -124554,28 +124558,28 @@ jDL
 jDL
 jDL
 jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
+rKl
 rKl
 jDL
 "}
@@ -124756,7 +124760,7 @@ jDL
 jDL
 jDL
 jDL
-jDL
+rKl
 jDL
 jDL
 jDL
@@ -124958,7 +124962,7 @@ jDL
 jDL
 jDL
 jDL
-jDL
+rKl
 jDL
 jDL
 jDL
@@ -125160,7 +125164,7 @@ jDL
 jDL
 jDL
 jDL
-jDL
+rKl
 jDL
 jDL
 jDL
@@ -125362,7 +125366,7 @@ jDL
 jDL
 jDL
 jDL
-jDL
+rKl
 jDL
 jDL
 jDL
@@ -125564,7 +125568,7 @@ jDL
 jDL
 jDL
 jDL
-jDL
+rKl
 jDL
 jDL
 jDL
@@ -125766,7 +125770,7 @@ jDL
 jDL
 jDL
 jDL
-jDL
+rKl
 jDL
 jDL
 jDL
@@ -125968,7 +125972,7 @@ jDL
 jDL
 jDL
 jDL
-jDL
+rKl
 jDL
 jDL
 jDL
@@ -126170,7 +126174,7 @@ jDL
 jDL
 jDL
 jDL
-jDL
+rKl
 jDL
 jDL
 jDL
@@ -126372,6 +126376,7 @@ jDL
 jDL
 jDL
 jDL
+rKl
 jDL
 jDL
 jDL
@@ -126383,17 +126388,16 @@ jDL
 jDL
 jDL
 jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+cxR
+cxR
+cxR
+cxR
+cxR
+cxR
+cxR
+cxR
+cxR
+cxR
 rKl
 jDL
 "}
@@ -126574,6 +126578,7 @@ jDL
 jDL
 jDL
 jDL
+rKl
 jDL
 jDL
 jDL
@@ -126585,17 +126590,16 @@ jDL
 jDL
 jDL
 jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+cxR
+sHE
+sHE
+sHE
+sHE
+sHE
+cxR
+xui
+xui
+cxR
 rKl
 jDL
 "}
@@ -126777,27 +126781,27 @@ jDL
 jDL
 jDL
 rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
-rKl
+jDL
+jDL
+jDL
+jDL
+jDL
+jDL
+jDL
+jDL
+jDL
+jDL
+jDL
+cxR
+sHE
+fkE
+fkE
+nGN
+dDN
+xui
+xui
+xui
+cxR
 rKl
 jDL
 "}
@@ -126990,16 +126994,16 @@ jDL
 jDL
 jDL
 jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+cxR
+sHE
+fkE
+fkE
+nGN
+dDN
+xui
+xui
+xui
+cxR
 rKl
 jDL
 "}
@@ -127192,16 +127196,16 @@ jDL
 jDL
 jDL
 jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+cxR
+sHE
+fkE
+fkE
+nGN
+dDN
+xui
+xui
+xui
+cxR
 rKl
 jDL
 "}
@@ -127394,16 +127398,16 @@ jDL
 jDL
 jDL
 jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+cxR
+sHE
+sHE
+sHE
+sHE
+sHE
+cxR
+xui
+xui
+cxR
 rKl
 jDL
 "}
@@ -127596,16 +127600,16 @@ jDL
 jDL
 jDL
 jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+cxR
+cxR
+cxR
+cxR
+cxR
+cxR
+cxR
+cxR
+cxR
+cxR
 rKl
 jDL
 "}
@@ -127787,7 +127791,7 @@ jDL
 jDL
 jDL
 rKl
-jDL
+cxR
 cxR
 cxR
 cxR
@@ -127989,8 +127993,8 @@ jDL
 jDL
 jDL
 rKl
-jDL
 cxR
+xui
 xui
 cxR
 wVg
@@ -128191,8 +128195,8 @@ jDL
 jDL
 jDL
 rKl
-jDL
 cxR
+xui
 xui
 xui
 tdK
@@ -128393,8 +128397,8 @@ jDL
 jDL
 jDL
 rKl
-jDL
 cxR
+xui
 xui
 xui
 tdK
@@ -128595,8 +128599,8 @@ jDL
 jDL
 jDL
 rKl
-jDL
 cxR
+xui
 xui
 xui
 tdK
@@ -128797,8 +128801,8 @@ jDL
 jDL
 jDL
 rKl
-jDL
 cxR
+xui
 xui
 cxR
 wVg
@@ -128999,7 +129003,7 @@ jDL
 jDL
 jDL
 rKl
-jDL
+cxR
 cxR
 cxR
 cxR
@@ -236334,7 +236338,7 @@ tOk
 sEc
 sch
 sch
-xAc
+sch
 sch
 sch
 sch
@@ -236536,7 +236540,7 @@ hgH
 ctW
 eyj
 eyj
-oWI
+eyj
 eyj
 eyj
 eyj
