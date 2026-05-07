@@ -1,6 +1,6 @@
 #include "area/_Iskhod_areas.dm"
 #include "map/_Iskhod_Colony.dmm"
-
+#include "map/isk_solars.dmm"
 
 //Solars Map
 /obj/map_data/iskhod_solars
