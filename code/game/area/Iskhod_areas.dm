@@ -166,6 +166,10 @@
 	name = "Engineering Disposals"
 	icon_state = "engine"
 
+/area/iskhod/engineering/solars
+	name = "Engineering High Altitude Solars"
+
+
 // Environment / Logic
 /area/iskhod/pit
 	name = "Pit"
