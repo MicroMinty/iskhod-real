@@ -196,12 +196,12 @@ Temporary Items
 /dmdoc
 
 # Ignore custom music and title screens (amend as appropriate)
-/config/jukebox_music/sounds/*
-!/config/jukebox_music/sounds/exclude
-/config/title_music/sounds/*
-!/config/title_music/sounds/exclude
-/config/title_screens/images/*
-!/config/title_screens/images/exclude
+#/config/jukebox_music/sounds/*
+#!/config/jukebox_music/sounds/exclude
+#/config/title_music/sounds/*
+#!/config/title_music/sounds/exclude
+#/config/title_screens/images/*
+#!/config/title_screens/images/exclude
 
 #Linux docker
 /tools/LinuxOneShot/SetupProgram/obj/*
@@ -230,6 +230,5 @@ aux*.pdb
 /faxes
 #rust_g.dm
 # TEMPORARILY COMMENTED BECAUSE LINUX BYOND REQUIRES THIS TO COMPILE?
-jukebox.json
 //bin/merge-test-prs.bat
 wiki_example_paperwork.txt
