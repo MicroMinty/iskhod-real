@@ -169,6 +169,8 @@
 /area/iskhod/engineering/solars
 	name = "Engineering High Altitude Solars"
 
+/area/iskhod/engineering/solars_control
+	name = "Engineering Solars Control Room"
 
 // Environment / Logic
 /area/iskhod/pit
