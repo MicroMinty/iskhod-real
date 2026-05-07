@@ -801,7 +801,7 @@
 	id = "deck 2";
 	name = "main grid cable"
 	},
-/turf/simulated/open,
+/turf/simulated/floor/plating/under,
 /area/iskhod/maintenance/undergroundfloor2west)
 "ajG" = (
 /obj/effect/window_lwall_spawn/reinforced,
@@ -5879,12 +5879,12 @@
 "bBw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/firedoor,
 /obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/door/firedoor/multi_tile,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/side/f2section3)
 "bBx" = (
@@ -15257,7 +15257,7 @@
 /area/iskhod/engineering/breakroom)
 "ecl" = (
 /obj/structure/artwork_statue,
-/turf/simulated/floor/wood/wild3,
+/turf/simulated/floor/tiled/dark/gray_platform,
 /area/iskhod/maintenance/undergroundfloor1north)
 "ecv" = (
 /obj/random/scrap/moderate_weighted,
@@ -20433,6 +20433,19 @@
 /obj/effect/floor_decal/industrial/hatch/blue,
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/security/sechall)
+"fxN" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	dir = 1
+	},
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = 32
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/hallway/side/f2section1)
 "fxR" = (
 /obj/structure/table/marble,
 /obj/machinery/door/firedoor,
@@ -28017,7 +28030,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/open,
+/turf/simulated/floor/plating/under,
 /area/iskhod/maintenance/substation/servist)
 "hAA" = (
 /obj/structure/bed/chair/office/dark{
@@ -33102,6 +33115,12 @@
 /obj/machinery/power/supermatter,
 /turf/simulated/floor/reinforced/airless,
 /area/iskhod/engineering/engine_room)
+"iRm" = (
+/obj/random/mecha/damaged/low_chance,
+/obj/random/mecha/damaged/low_chance,
+/obj/effect/decal/mecha_wreckage/seraph,
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/iskhod/maintenance/undergroundfloor1north)
 "iRN" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -37013,6 +37032,20 @@
 	icon_state = "9,5"
 	},
 /area/shuttle/vasiliy_shuttle_area)
+"jSp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/closet/wall_mounted/emcloset{
+	pixel_x = -32
+	},
+/obj/effect/floor_decal/industrial/hatch/blue,
+/turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/hallway/side/f2section3)
 "jSv" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 1
@@ -40094,6 +40127,11 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/command/hallway)
+"kIX" = (
+/obj/random/mecha/damaged/low_chance,
+/obj/random/mecha/damaged/low_chance,
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/iskhod/maintenance/undergroundfloor1north)
 "kJc" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
@@ -56417,7 +56455,7 @@
 "pfA" = (
 /obj/random/mecha/low_chance,
 /obj/random/mecha/low_chance,
-/turf/simulated/floor/reinforced,
+/turf/simulated/floor/tiled/dark/gray_platform,
 /area/iskhod/maintenance/undergroundfloor1north)
 "pfL" = (
 /turf/simulated/floor/tiled/dark/gray_perforated,
@@ -65124,6 +65162,20 @@
 "rAs" = (
 /turf/simulated/floor/carpet/purcarpet,
 /area/iskhod/command/cro)
+"rAB" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_x = -32
+	},
+/obj/effect/floor_decal/industrial/hatch/red,
+/turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/hallway/side/f2section3)
 "rAM" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -67773,7 +67825,7 @@
 /area/iskhod/service/showers/public)
 "slt" = (
 /obj/random/structures,
-/turf/simulated/floor/reinforced,
+/turf/simulated/floor/tiled/dark/gray_platform,
 /area/iskhod/maintenance/undergroundfloor1north)
 "slA" = (
 /obj/structure/railing/grey{
@@ -68379,7 +68431,8 @@
 "sue" = (
 /obj/random/mecha/damaged/low_chance,
 /obj/random/mecha/damaged/low_chance,
-/turf/simulated/floor/reinforced,
+/obj/effect/decal/mecha_wreckage/ripley,
+/turf/simulated/floor/tiled/dark/gray_platform,
 /area/iskhod/maintenance/undergroundfloor1north)
 "suw" = (
 /obj/item/oddity/common/paper_bundle,
@@ -78650,6 +78703,12 @@
 /obj/effect/decal/cleanable/filth,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/maintenance/undergroundfloor2south)
+"vmO" = (
+/obj/random/mecha/damaged/low_chance,
+/obj/random/mecha/damaged/low_chance,
+/obj/effect/decal/mecha_wreckage/hoverpod,
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/iskhod/maintenance/undergroundfloor1north)
 "vnu" = (
 /obj/effect/spider/eggcluster,
 /turf/simulated/floor/rock/dark,
@@ -100212,8 +100271,8 @@ jDL
 jDL
 iDc
 iDc
-sue
-sue
+vmO
+kIX
 sue
 iDc
 iDc
@@ -101828,8 +101887,8 @@ jDL
 jDL
 iDc
 iDc
-sue
-sue
+kIX
+iRm
 pfA
 iDc
 iDc
@@ -155017,11 +155076,11 @@ reH
 reH
 reH
 reH
-reH
+jSp
 reH
 lvu
 ntJ
-reH
+rAB
 reH
 utv
 wdW
@@ -155212,9 +155271,9 @@ pGG
 iqT
 ohF
 nFV
-pYh
-iId
-kTi
+nFV
+gwN
+gwN
 gwN
 gwN
 gwN
@@ -155397,7 +155456,7 @@ gab
 raf
 fJr
 rdK
-rdK
+fxN
 hJx
 mwa
 rdK
@@ -155414,7 +155473,7 @@ wGV
 kTg
 nFV
 nFV
-vlE
+pYh
 iId
 kTi
 kTi
@@ -158683,9 +158742,9 @@ evF
 evF
 xxP
 xxP
-xxP
-xxP
-xxP
+evF
+jEF
+jEF
 jEF
 jEF
 jEF
@@ -158878,16 +158937,16 @@ evF
 evF
 gYn
 evF
-evF
+jEF
 evF
 evF
 evF
 evF
 xxP
 kch
-kch
-kch
-xxP
+evF
+evF
+evF
 evF
 evF
 jEF
@@ -159081,8 +159140,8 @@ jEF
 njW
 njW
 gYn
-evF
-evF
+jEF
+jEF
 evF
 evF
 xxP
@@ -159285,7 +159344,7 @@ njW
 jEF
 jEF
 jEF
-evF
+jEF
 evF
 xxP
 vbk
@@ -160295,7 +160354,7 @@ kta
 wfW
 wCV
 mzT
-evF
+njW
 evF
 xxP
 xxP
@@ -161509,7 +161568,7 @@ wCV
 jEF
 jEF
 jEF
-evF
+jEF
 evF
 jEF
 jEF
@@ -162301,18 +162360,18 @@ evF
 evF
 jEF
 qhb
-evF
+njW
 bys
 bys
 jEF
 njW
-evF
-evF
+njW
+njW
 njW
 gYn
 gYn
-evF
-evF
+jEF
+jEF
 jEF
 jEF
 bys
@@ -162503,7 +162562,7 @@ evF
 evF
 mzT
 hCX
-evF
+njW
 evF
 kYo
 evF
