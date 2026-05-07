@@ -11100,6 +11100,10 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/iskhod/pros/shuttle)
+"cWa" = (
+/obj/turbolift_map_obj/turbolift_map_base/Nadezhda/mountaintop,
+/turf/simulated/floor/industrial/navy_large_slates,
+/area/turbolift/mountain/colony)
 "cWj" = (
 /obj/item/dnainjector/clumsymut,
 /turf/simulated/floor/tiled/dark/violetcorener,
@@ -150154,7 +150158,7 @@ axX
 tXp
 hgv
 hgv
-nYF
+cWa
 wit
 mSj
 fGs
