@@ -2,18 +2,18 @@
 "ad" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning,
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "aX" = (
 /obj/machinery/light{
 	brightness_power = 1;
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "bh" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "bm" = (
 /obj/random/scrap/dense_weighted,
 /turf/simulated/floor/snow/smooth{
@@ -31,7 +31,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "bv" = (
 /obj/structure/fireaxecabinet{
 	pixel_y = -30
@@ -40,7 +40,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "bJ" = (
 /obj/item/clothing/suit/costume/misc/snowman,
 /obj/item/clothing/head/costume/misc/snowman{
@@ -61,15 +61,15 @@
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "cd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "cg" = (
 /obj/machinery/atmospherics/unary/vent_pump,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "ch" = (
 /obj/structure/railing/grey{
 	dir = 8
@@ -86,7 +86,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "cT" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -97,7 +97,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "dr" = (
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/turbolift/mountain/solars)
@@ -107,7 +107,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "dD" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -115,18 +115,18 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "dU" = (
 /obj/machinery/space_heater,
 /obj/machinery/alarm{
 	pixel_y = 27
 	},
 /turf/simulated/floor/tiled/dark/danger,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "eD" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "eV" = (
 /obj/effect/window_lwall_spawn/reinforced,
 /obj/structure/cable{
@@ -135,7 +135,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "fq" = (
 /obj/structure/railing/grey,
 /turf/simulated/floor/snow/smooth{
@@ -160,11 +160,11 @@
 	pixel_y = 27
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "fN" = (
 /obj/structure/bed/chair,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "fO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -173,7 +173,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "fV" = (
 /obj/structure/railing/grey{
 	dir = 4
@@ -195,7 +195,7 @@
 	brightness_power = 1
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "hi" = (
 /obj/structure/table/reinforced,
 /obj/random/junkfood/low_chance{
@@ -203,7 +203,7 @@
 	pixel_y = 3
 	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "hj" = (
 /obj/structure/catwalk,
 /obj/structure/cable{
@@ -237,7 +237,7 @@
 	target_pressure = 5000
 	},
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "jz" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -245,7 +245,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "kj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -256,18 +256,18 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "kv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "kz" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/pill_bottle/dice,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "li" = (
 /obj/structure/flora/tree/snow/three,
 /turf/simulated/floor/snow/smooth{
@@ -282,7 +282,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "lX" = (
 /obj/structure/flora/tree/snow/two,
 /turf/simulated/floor/snow/smooth{
@@ -307,7 +307,7 @@
 "mk" = (
 /obj/machinery/ntnet_relay,
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "mY" = (
 /turf/simulated/floor/fixed/hydrotile,
 /area/iskhod/engineering/solars)
@@ -324,7 +324,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "nh" = (
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "9,23"
@@ -342,7 +342,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "of" = (
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars)
@@ -372,7 +372,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "pg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -387,7 +387,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "pZ" = (
 /obj/structure/flora/tree/pine,
 /turf/simulated/floor/snow/smooth{
@@ -405,11 +405,11 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "qm" = (
 /obj/structure/table/bench/standard,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "qH" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -423,7 +423,7 @@
 	pixel_y = 27
 	},
 /turf/simulated/floor/tiled/dark/danger,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "st" = (
 /obj/structure/salvageable/autolathe_os,
 /turf/simulated/floor/snow/smooth{
@@ -446,7 +446,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "sB" = (
 /turf/simulated/floor/asteroid/dirt/mud{
 	temperature = 240
@@ -459,24 +459,24 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "sT" = (
 /obj/structure/closet/crate/solar,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "tp" = (
 /obj/machinery/vending/gamers,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "tz" = (
 /turf/simulated/mineral/glacierice,
 /area/iskhod/engineering/solars)
 "ux" = (
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "uM" = (
 /obj/structure/catwalk,
 /obj/structure/cable{
@@ -515,15 +515,15 @@
 "vv" = (
 /obj/machinery/vending/dinnerware,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "vK" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "vS" = (
 /obj/machinery/space_heater,
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "vX" = (
 /obj/structure/railing/grey{
 	dir = 8
@@ -540,7 +540,11 @@
 "wz" = (
 /obj/effect/window_lwall_spawn/reinforced,
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
+"wC" = (
+/obj/map_data/iskhod_solars,
+/turf/simulated/wall/rock/snow,
+/area/iskhod/engineering/solars)
 "wJ" = (
 /obj/structure/flora/small/snow/boulder1,
 /turf/simulated/floor/snow/smooth{
@@ -555,17 +559,17 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "yj" = (
 /obj/machinery/vending/cola,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "za" = (
 /obj/structure/table/marble,
 /obj/machinery/microwave,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "zm" = (
 /obj/machinery/power/solar_control{
 	dir = 1;
@@ -582,7 +586,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Ac" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -603,13 +607,13 @@
 /area/iskhod/engineering/solars)
 "Ay" = (
 /turf/simulated/wall/iskhod_green,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "AE" = (
 /obj/machinery/alarm{
 	pixel_y = 27
 	},
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "AH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -618,21 +622,21 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Bb" = (
 /obj/structure/table/marble,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Bj" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/unary/vent_scrubber,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Bv" = (
 /obj/machinery/atmospherics/unary/vent_scrubber,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Bw" = (
 /obj/machinery/power/tracker,
 /obj/structure/cable{
@@ -665,12 +669,12 @@
 "BN" = (
 /obj/machinery/space_heater,
 /turf/simulated/floor/tiled/dark/danger,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Cf" = (
 /obj/machinery/door/airlock/multi_tile/glass,
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Cy" = (
 /obj/structure/flora/small/snow/boulder2,
 /turf/simulated/floor/snow/smooth{
@@ -682,7 +686,7 @@
 /area/iskhod/engineering/solars)
 "CD" = (
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "CF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -698,7 +702,7 @@
 	},
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Dg" = (
 /turf/simulated/floor/industrial/navy_slates,
 /area/turbolift/mountain/solars)
@@ -718,13 +722,13 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "DO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Eo" = (
 /obj/structure/window/reinforced/iskhod{
 	dir = 4
@@ -732,7 +736,7 @@
 /obj/structure/table/reinforced,
 /obj/random,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Er" = (
 /obj/machinery/power/solar,
 /obj/structure/cable{
@@ -744,7 +748,7 @@
 "Et" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "EY" = (
 /obj/structure/flora/small/snow/rock3,
 /turf/simulated/floor/snow/smooth{
@@ -757,19 +761,19 @@
 "Fd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Go" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "GQ" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "GW" = (
 /obj/effect/mist,
 /turf/simulated/floor/fixed/hydrotile,
@@ -788,7 +792,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Id" = (
 /obj/random/powercell/low_chance,
 /obj/structure/table/reinforced,
@@ -796,11 +800,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "IC" = (
 /obj/machinery/recharge_station/upgraded_t_three,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "IG" = (
 /obj/machinery/portable_atmospherics/powered/scrubber/yggdrasil/cold{
 	name = "pine tree";
@@ -816,7 +820,7 @@
 "IN" = (
 /obj/structure/bookcase/manuals/engineering,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Kk" = (
 /turf/unsimulated/mineral/cold,
 /area/iskhod/engineering/solars)
@@ -835,16 +839,16 @@
 /obj/item/storage/box/donkpockets,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "KZ" = (
 /turf/simulated/floor/tiled/dark/danger,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "LJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "LN" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -859,7 +863,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Mj" = (
 /obj/structure/bonfire/permanent,
 /turf/simulated/floor/asteroid/dirt/mud{
@@ -872,7 +876,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "MM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -882,13 +886,13 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Nn" = (
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Ns" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -914,7 +918,7 @@
 "ND" = (
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Om" = (
 /obj/structure/flora/small/snow/rock6,
 /turf/simulated/floor/snow/smooth{
@@ -928,7 +932,7 @@
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "OA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -940,7 +944,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "OK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -949,7 +953,7 @@
 	brightness_power = 1
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Pc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -958,14 +962,14 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "PC" = (
 /obj/machinery/atmospherics/binary/pump/high_power/on{
 	dir = 1;
 	target_pressure = 295
 	},
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "PO" = (
 /obj/structure/table/reinforced,
 /obj/random/toolbox,
@@ -973,17 +977,17 @@
 /obj/item/stack/cable_coil,
 /obj/item/stack/cable_coil,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "PT" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Qo" = (
 /obj/machinery/space_heater,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Qp" = (
 /obj/structure/flora/small/snow/rock7,
 /turf/simulated/floor/snow/smooth{
@@ -995,51 +999,51 @@
 /area/iskhod/engineering/solars)
 "Ry" = (
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "RR" = (
 /obj/structure/closet/crate/solar,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Sh" = (
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/solars)
 "SF" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Ts" = (
 /obj/structure/window/reinforced/iskhod{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Tx" = (
 /obj/structure/closet/emcloset,
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/hatch/blue,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "TJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "TK" = (
 /obj/structure/table/reinforced,
 /obj/random/booze/low_chance,
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "TW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Up" = (
 /obj/effect/window_lwall_spawn/reinforced,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "UG" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 2
@@ -1048,7 +1052,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "UU" = (
 /obj/structure/railing/grey,
 /obj/structure/cable{
@@ -1067,29 +1071,29 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Vo" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Vy" = (
 /obj/machinery/portable_atmospherics/canister/empty,
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "VR" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "VY" = (
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "WJ" = (
 /obj/structure/salvageable/data_os,
 /turf/simulated/floor/snow/smooth{
@@ -1117,11 +1121,11 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "XV" = (
 /obj/machinery/vending/engivend,
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "YU" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin{
@@ -1131,20 +1135,23 @@
 	pixel_x = -1;
 	pixel_y = 3
 	},
+/obj/item/paper/solarsteup{
+	name = "paper- 'Message from Tacitus, ex-Guild grand master.'"
+	},
 /turf/simulated/floor/carpet/oracarpet,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "Zi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
 /turf/simulated/floor/plating/under,
-/area/space)
+/area/iskhod/engineering/solars_control)
 "ZS" = (
 /obj/machinery/light{
 	brightness_power = 1
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
-/area/space)
+/area/iskhod/engineering/solars_control)
 
 (1,1,1) = {"
 Kk
@@ -10838,10 +10845,10 @@ Kk
 "}
 (96,1,1) = {"
 Kk
-BI
-BI
-BI
-BI
+Kk
+Kk
+Kk
+Kk
 BI
 BI
 BI
@@ -10943,7 +10950,7 @@ Kk
 BI
 BI
 BI
-BI
+Kk
 BI
 BI
 BI
@@ -11043,9 +11050,9 @@ Kk
 (98,1,1) = {"
 Kk
 BI
+wC
 BI
-BI
-BI
+Kk
 BI
 BI
 BI
@@ -11147,7 +11154,7 @@ Kk
 BI
 BI
 BI
-BI
+Kk
 BI
 BI
 BI
