@@ -481,9 +481,6 @@
 /obj/machinery/vending/gamers,
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars_control)
-"tz" = (
-/turf/simulated/mineral/glacierice,
-/area/iskhod/engineering/solars)
 "ux" = (
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
@@ -8815,9 +8812,9 @@ BI
 BI
 BI
 BI
-tz
-tz
-tz
+BI
+BI
+BI
 mY
 mY
 mY
@@ -8917,7 +8914,7 @@ BI
 BI
 BI
 BI
-tz
+BI
 GW
 mY
 mY
@@ -9019,7 +9016,7 @@ BI
 BI
 BI
 BI
-tz
+BI
 GW
 mY
 mY
@@ -9121,7 +9118,7 @@ BI
 BI
 BI
 BI
-tz
+BI
 GW
 mY
 mY
@@ -9223,9 +9220,9 @@ BI
 BI
 BI
 BI
-tz
-tz
-tz
+BI
+BI
+BI
 oj
 oj
 oj
@@ -10695,8 +10692,8 @@ gl
 gl
 BI
 BI
-tz
-tz
+BI
+BI
 BI
 BI
 BI
@@ -10798,7 +10795,7 @@ mY
 mY
 mY
 GW
-tz
+BI
 BI
 BI
 BI
@@ -10900,7 +10897,7 @@ mY
 mY
 mY
 GW
-tz
+BI
 BI
 BI
 BI
@@ -11002,7 +10999,7 @@ mY
 mY
 mY
 GW
-tz
+BI
 BI
 BI
 BI
@@ -11102,9 +11099,9 @@ BI
 BI
 BI
 BI
-tz
-tz
-tz
+BI
+BI
+BI
 BI
 BI
 BI
