@@ -5,3 +5,4 @@
 //#include "../encounters/spacefortress/spacefortress.dm"
 #include "../JunkTractorBeam/junk_tractor_beam.dm"
 #include "../Centcom/centcom.dm"
+#include "./Iskhod_solars.dm"
