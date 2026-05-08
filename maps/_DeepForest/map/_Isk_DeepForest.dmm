@@ -53,14 +53,20 @@
 	pixel_x = 5;
 	pixel_y = -3
 	},
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "aT" = (
 /turf/simulated/wall/wood,
 /area/iskhod/outside/forest)
 "bb" = (
 /mob/living/carbon/superior/roach/kaiser,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "bm" = (
 /obj/structure/low_wall/iskhod,
@@ -68,7 +74,10 @@
 /area/iskhod/outside/forest)
 "by" = (
 /obj/machinery/door/airlock/hatch,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "bB" = (
 /obj/structure/table/bench/wooden,
@@ -85,7 +94,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "bK" = (
 /obj/random/cluster/spiders,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "bL" = (
 /obj/random/mob/roaches,
@@ -125,7 +137,10 @@
 "dn" = (
 /obj/random/junk,
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "dy" = (
 /obj/structure/table/reinforced,
@@ -200,7 +215,10 @@
 "fr" = (
 /obj/machinery/door/airlock/hatch,
 /obj/random/traps/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "fx" = (
 /turf/simulated/floor/snow/smooth{
@@ -259,7 +277,10 @@
 "fZ" = (
 /obj/item/material/baseballbat/uranium,
 /obj/structure/table/marble,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "gc" = (
 /turf/simulated/floor/rock/dark,
@@ -270,12 +291,18 @@
 /area/iskhod/dungeon/outside/caverns)
 "go" = (
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "gx" = (
 /obj/effect/spider/stickyweb,
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "gy" = (
 /obj/structure/table/marble,
@@ -293,7 +320,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "gM" = (
 /obj/random/mob/excelsior/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "gQ" = (
 /obj/structure/low_wall/iskhod,
@@ -309,7 +339,10 @@
 /obj/effect/spider/stickyweb,
 /obj/random/junk/low_chance,
 /obj/random/junk/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "hl" = (
 /obj/machinery/door/airlock/hatch,
@@ -319,18 +352,27 @@
 "hm" = (
 /obj/effect/spider/stickyweb,
 /obj/random/junk/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "hu" = (
 /mob/living/carbon/superior/spider/fortress/emperor,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "hy" = (
 /obj/machinery/floodlight{
 	on = 1;
 	light_range = 4
 	},
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "hE" = (
 /obj/structure/table/standard,
@@ -338,7 +380,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "hF" = (
 /obj/random/mob/xenomorphs,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "hL" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
@@ -350,7 +395,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "im" = (
 /obj/random/junk,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "ip" = (
 /obj/structure/salvageable/computer_os{
@@ -360,7 +408,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "iu" = (
 /obj/effect/decal/mecha_wreckage/ripley/deathripley,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "iw" = (
 /turf/simulated/mineral/frostyrock,
@@ -384,7 +435,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "jC" = (
 /obj/random/tool_upgrade/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "jH" = (
 /obj/effect/floor_decal/border/techfloor/orange/corner{
@@ -401,7 +455,10 @@
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest)
 "jL" = (
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "jU" = (
 /obj/machinery/cooking/oven,
@@ -419,7 +476,10 @@
 "ke" = (
 /obj/random/junk/low_chance,
 /obj/random/junk/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "kh" = (
 /obj/structure/foamedmetal,
@@ -445,11 +505,17 @@
 "kT" = (
 /obj/structure/boulder,
 /obj/structure/boulder,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "lq" = (
 /obj/effect/decal/mecha_wreckage/ripley,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "lw" = (
 /turf/simulated/floor/icewater,
@@ -468,16 +534,25 @@
 /area/iskhod/dungeon/outside/caverns)
 "lJ" = (
 /obj/random/mob/spiders,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "lK" = (
 /obj/random/mecha/damaged,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "lM" = (
 /obj/structure/table/bench/steel,
 /obj/random/mob/excelsior,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "lU" = (
 /turf/simulated/wall/iskhod_red,
@@ -550,7 +625,10 @@
 "nQ" = (
 /obj/item/material/sword/uranium,
 /obj/structure/table/marble,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "nS" = (
 /obj/random/closet_maintloot,
@@ -578,7 +656,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "or" = (
 /mob/living/simple/hostile/jelly,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "os" = (
 /obj/structure/closet/crate,
@@ -636,13 +717,19 @@
 /area/iskhod/dungeon/outside/caverns)
 "pK" = (
 /obj/effect/decal/mecha_wreckage/durand,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "pL" = (
 /obj/structure/multiz/stairs/enter{
 	dir = 1
 	},
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "pO" = (
 /turf/simulated/floor/rock/manmade/asphalt,
@@ -709,7 +796,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "sx" = (
 /obj/effect/decal/mecha_wreckage/hoverpod,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "sT" = (
 /obj/structure/multiz/stairs/active/bottom{
@@ -733,7 +823,10 @@
 "tr" = (
 /obj/random/cluster/spiders,
 /obj/random/junk/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "tw" = (
 /obj/machinery/atmospherics/mains_pipe/simple/visible{
@@ -760,7 +853,10 @@
 "tI" = (
 /obj/item/material/sword/katana/uranium,
 /obj/structure/table/marble,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "tN" = (
 /obj/landmark/join/late/cryo/outsider,
@@ -798,7 +894,10 @@
 "uF" = (
 /obj/structure/table/steel,
 /obj/random/junkfood/onlycake,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "uQ" = (
 /obj/machinery/door/airlock/hatch,
@@ -834,7 +933,10 @@
 /obj/random/cigarettes,
 /obj/random/cigarettes,
 /obj/random/cigarettes,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "vt" = (
 /obj/structure/railing{
@@ -885,7 +987,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "wO" = (
 /obj/effect/decal/mecha_wreckage/gygax,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "xj" = (
 /obj/structure/catwalk,
@@ -899,13 +1004,19 @@
 /obj/random/junk,
 /obj/random/junk,
 /obj/random/junk,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "xK" = (
 /obj/structure/table/steel,
 /obj/random/junkfood/onlyburger,
 /obj/random/junkfood/onlyburger,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "ym" = (
 /obj/structure/multiz/stairs/active/bottom{
@@ -946,7 +1057,10 @@
 "zH" = (
 /obj/random/junk,
 /obj/random/cluster/spiders,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "zI" = (
 /obj/random/booze,
@@ -967,7 +1081,10 @@
 "Ah" = (
 /obj/item/tool/spear/uranium,
 /obj/structure/table/marble,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "At" = (
 /obj/structure/table/steel,
@@ -977,7 +1094,10 @@
 "AA" = (
 /obj/random/mob/spiders,
 /obj/random/junk/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "AN" = (
 /turf/unsimulated/mineral/cold,
@@ -995,7 +1115,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "AY" = (
 /obj/random/oddity_guns,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Ba" = (
 /obj/effect/spider/stickyweb,
@@ -1024,7 +1147,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "BC" = (
 /mob/living/simple/hostile/render,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "BM" = (
 /obj/structure/boulder,
@@ -1095,7 +1221,10 @@
 /area/iskhod/outside/forest)
 "Dw" = (
 /obj/random/mob/excelsior,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Dy" = (
 /obj/effect/overlay/water{
@@ -1123,7 +1252,10 @@
 "Eh" = (
 /obj/random/junk,
 /obj/random/junk,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Ek" = (
 /obj/random/material_ore/low_chance,
@@ -1170,7 +1302,10 @@
 /obj/machinery/power/emitter/anchored{
 	dir = 4
 	},
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Fc" = (
 /obj/effect/spider/stickyweb,
@@ -1321,7 +1456,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "JJ" = (
 /obj/mecha/working/ripley/deathripley,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "JN" = (
 /mob/living/simple/snail{
@@ -1338,7 +1476,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "JU" = (
 /obj/random/cigarettes,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "JW" = (
 /obj/effect/window_lwall_spawn/reinforced,
@@ -1350,7 +1491,10 @@
 /area/iskhod/outside/forest)
 "Ks" = (
 /obj/random/junk/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/trashcave)
 "Kx" = (
 /obj/structure/multiz/stairs/enter/bottom,
@@ -1358,7 +1502,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "KA" = (
 /obj/random/mob/roaches,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "KC" = (
 /obj/effect/decal/cleanable/rubble,
@@ -1371,7 +1518,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "KG" = (
 /obj/random/junk,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/trashcave)
 "Le" = (
 /obj/random/junkfood,
@@ -1391,18 +1541,27 @@
 /area/iskhod/dungeon/outside/caverns)
 "Lq" = (
 /obj/random/cigarettes/singles,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Lu" = (
 /obj/random/junk,
 /obj/random/junk,
 /obj/random/junk,
 /obj/random/junk,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "LE" = (
 /mob/living/carbon/superior/spider/nurse/queen,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "LH" = (
 /obj/machinery/light/floor{
@@ -1422,11 +1581,17 @@
 /area/iskhod/dungeon/outside/caverns)
 "Mo" = (
 /obj/random/material_ore/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Mu" = (
 /obj/structure/table/bench/steel,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "MI" = (
 /obj/effect/overlay/water{
@@ -1497,11 +1662,17 @@
 "Oe" = (
 /mob/living/carbon/superior/spider/nurse/queen,
 /obj/random/junk/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Oj" = (
 /obj/structure/boulder,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Os" = (
 /obj/structure/closet/secure_closet/freezer,
@@ -1533,7 +1704,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "OZ" = (
 /obj/effect/decal/mecha_wreckage/odysseus,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Ps" = (
 /turf/simulated/floor/snow/smooth{
@@ -1576,7 +1750,10 @@
 "QW" = (
 /obj/random/junk,
 /obj/random/junk/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Rm" = (
 /obj/structure/multiz/stairs/active{
@@ -1660,7 +1837,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "Tq" = (
 /obj/random/cigarettes/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Ts" = (
 /obj/machinery/door/airlock/freezer,
@@ -1685,7 +1865,10 @@
 	},
 /area/iskhod/outside/forest)
 "Ub" = (
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/outside/forest)
 "Uq" = (
 /obj/random/mob/excelsior/low_chance,
@@ -1729,12 +1912,18 @@
 	},
 /area/iskhod/outside/forest)
 "VE" = (
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/trashcave)
 "VW" = (
 /obj/random/material_ore/low_chance,
 /obj/random/material_ore/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Wc" = (
 /obj/structure/table/rack/shelf,
@@ -1872,7 +2061,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "ZF" = (
 /obj/structure/foamedmetal,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "ZH" = (
 /obj/machinery/door/airlock/highsecurity,
@@ -1880,7 +2072,10 @@
 /area/iskhod/outside/forest)
 "ZN" = (
 /obj/random/junk/low_chance,
-/turf/simulated/floor/asteroid/shale,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 
 (1,1,1) = {"
