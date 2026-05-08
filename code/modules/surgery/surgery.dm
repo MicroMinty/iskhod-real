@@ -357,7 +357,7 @@ proc/do_surgery(mob/living/carbon/M, mob/living/user, obj/item/tool)
 				return TRUE
 
 
-	else if(BP_IS_ORGANIC(src) || BP_IS_SLIME(src))
+	else if(BP_IS_ORGANIC(src) || BP_IS_SLIME(src) || BP_IS_SUPERIOR(src)) // added to allow surgery operation on exalt humans.
 		possible_steps = list()
 
 		if(open)
