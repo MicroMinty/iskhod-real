@@ -6868,6 +6868,7 @@
 /obj/structure/bed/double,
 /obj/item/bedsheet/browndouble,
 /obj/landmark/join/start/outsider,
+/obj/landmark/join/late/dormitory_outsider,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/inside_colony/east)
 "bOC" = (
@@ -51086,6 +51087,7 @@
 /obj/structure/toilet{
 	pixel_y = 10
 	},
+/obj/landmark/join/late/dormitory_outsider,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/maintenance/undergroundfloor2west)
 "nDK" = (
