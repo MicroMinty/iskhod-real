@@ -97,6 +97,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/outpostmachineroom)
+"aM" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "2,6";
+	opacity = 0
+	},
+/area/mine/lockers)
 "aO" = (
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 4
@@ -285,6 +291,12 @@
 "cd" = (
 /turf/simulated/wall/r_wall/iskhod,
 /area/iskhod/rnd/outpoststorage)
+"ck" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "2,5";
+	opacity = 0
+	},
+/area/iskhod/rnd/outpostgeneral)
 "co" = (
 /obj/machinery/mining/brace,
 /turf/simulated/floor/asteroid{
@@ -329,8 +341,11 @@
 /turf/simulated/floor/industrial/navy_slates,
 /area/mine/hallway)
 "da" = (
-/turf/simulated/floor/plating/under,
-/area/turbolift/Research/underground)
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "15,5";
+	opacity = 0
+	},
+/area/iskhod/rnd/outpostgeneral)
 "df" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -635,6 +650,13 @@
 	},
 /turf/simulated/floor/tiled/dark/danger,
 /area/iskhod/command/teleporter)
+"fs" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "15,6";
+	name = "Elevator";
+	opacity = 0
+	},
+/area/iskhod/rnd/outpostgeneral)
 "fy" = (
 /turf/simulated/wall/r_wall/iskhod,
 /area/iskhod/rnd/anomalisolfour{
@@ -782,7 +804,7 @@
 	brightness_power = 1
 	},
 /turf/simulated/floor/industrial/grey_slates_long,
-/area/mine/atmos)
+/area/mine/lockers)
 "gJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1189,8 +1211,10 @@
 /turf/simulated/floor/carpet/purcarpet,
 /area/iskhod/rnd/outpostgeneral)
 "jE" = (
-/turf/simulated/floor/plating/under,
-/area/turbolift/Mining/underground)
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "14,21"
+	},
+/area/mine/lockers)
 "jI" = (
 /obj/effect/floor_decal/industrial/loading/red,
 /turf/simulated/floor/reinforced,
@@ -1234,19 +1258,10 @@
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/anomal)
 "kb" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "14,21"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/industrial/grey_slates_long,
-/area/mine/atmos)
+/area/iskhod/rnd/outpostgeneral)
 "ke" = (
 /obj/machinery/artifact_analyser,
 /turf/simulated/floor/tiled/white/brown_platform,
@@ -1269,10 +1284,9 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/iskhod/rnd/outpostmachineroom)
 "kz" = (
-/obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /turf/simulated/floor/industrial/navy_large_slates,
-/area/mine/prep)
+/area/mine/lockers)
 "kB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 1
@@ -1829,7 +1843,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/industrial/grey_slates_long,
-/area/mine/atmos)
+/area/mine/lockers)
 "oJ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 8
@@ -1982,6 +1996,12 @@
 "px" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/mine/power)
+"pA" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "2,6";
+	opacity = 0
+	},
+/area/iskhod/rnd/outpostgeneral)
 "pF" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -3140,7 +3160,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/industrial/grey_slates_long,
-/area/mine/atmos)
+/area/mine/lockers)
 "xt" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -4044,6 +4064,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/mixing)
+"Eo" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "7,10"
+	},
+/area/iskhod/rnd/outpostgeneral)
 "Et" = (
 /obj/machinery/power/apc{
 	cell_type = /obj/item/cell/large/moebius/nuclear;
@@ -4163,7 +4188,7 @@
 	},
 /obj/machinery/space_heater,
 /turf/simulated/floor/industrial/navy_slates,
-/area/mine/atmos)
+/area/mine/lockers)
 "Fh" = (
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/anomal)
@@ -4648,7 +4673,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/industrial/grey_slates_long,
-/area/mine/atmos)
+/area/mine/lockers)
 "Jb" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -4693,7 +4718,7 @@
 "Jj" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /turf/simulated/floor/industrial/grey_slates_long,
-/area/mine/atmos)
+/area/mine/lockers)
 "Jk" = (
 /obj/machinery/disposal,
 /obj/machinery/alarm{
@@ -5011,6 +5036,11 @@
 	},
 /turf/simulated/floor/tiled/white/cargo,
 /area/iskhod/rnd/outpostgeneral)
+"Ly" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "7,18"
+	},
+/area/mine/lockers)
 "Lz" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
@@ -5074,6 +5104,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/industrial/grey_slates_long,
 /area/mine/processing)
+"Ma" = (
+/turf/simulated/shuttle/floor/mining{
+	icon_state = "9,23"
+	},
+/area/turbolift/Mining/underground)
 "Mk" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /obj/structure/cable{
@@ -5556,6 +5591,11 @@
 /obj/machinery/atmospherics/pipe/tank/nitrogen,
 /turf/simulated/floor/industrial/grey_slates_long,
 /area/mine/atmos)
+"PQ" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "7,18"
+	},
+/area/iskhod/rnd/outpostgeneral)
 "PT" = (
 /turf/simulated/wall/r_wall/iskhod,
 /area/mine/lockers)
@@ -5661,17 +5701,23 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/industrial/grey_slates_long,
-/area/mine/atmos)
+/area/mine/lockers)
 "Qt" = (
-/obj/turbolift_map_obj/turbolift_map_base/Nadezhda/Mining,
-/turf/simulated/floor/plating/under,
-/area/turbolift/Mining/underground)
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "10,15"
+	},
+/area/mine/lockers)
 "Qv" = (
 /obj/effect/floor_decal/industrial/loading{
 	dir = 4
 	},
 /turf/simulated/floor/industrial/navy_slates,
 /area/mine/processing)
+"Qw" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "13,15"
+	},
+/area/iskhod/rnd/outpostgeneral)
 "QB" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -5777,9 +5823,10 @@
 /turf/simulated/floor/tiled/white/cargo,
 /area/iskhod/rnd/outpoststorage)
 "Rb" = (
-/obj/turbolift_map_obj/turbolift_map_base/Nadezhda/Research,
-/turf/simulated/floor/plating/under,
-/area/turbolift/Research/underground)
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "10,15"
+	},
+/area/iskhod/rnd/outpostgeneral)
 "Rc" = (
 /obj/machinery/telecomms/relay/preset/mining,
 /turf/simulated/floor/tiled/techmaint,
@@ -5907,8 +5954,10 @@
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/anomal)
 "RS" = (
-/turf/simulated/floor/industrial/navy_large_slates,
-/area/turbolift/Mining/underground)
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "13,15"
+	},
+/area/mine/lockers)
 "RY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5995,6 +6044,11 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled/white/violetcorener,
 /area/eris/rnd/xenobiology/xenoflora)
+"SC" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "10,18"
+	},
+/area/mine/lockers)
 "SI" = (
 /turf/simulated/wall/r_wall/iskhod,
 /area/mine/power)
@@ -6062,7 +6116,7 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/industrial/grey_slates_long,
-/area/mine/atmos)
+/area/mine/lockers)
 "Tm" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/structure/closet/wall_mounted/firecloset{
@@ -6100,7 +6154,9 @@
 /turf/simulated/floor/industrial/navy_slates,
 /area/mine/prep)
 "TE" = (
-/turf/simulated/wall/r_wall/iskhod,
+/turf/simulated/floor/asteroid{
+	temperature = 253.15
+	},
 /area/mine/unexplored)
 "TO" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
@@ -6222,6 +6278,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/outpoststorage)
+"UU" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "15,6";
+	opacity = 0
+	},
+/area/mine/lockers)
 "UX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -6341,6 +6403,11 @@
 /obj/structure/window/reinforced/iskhod,
 /turf/simulated/floor/tiled/white/violetcorener,
 /area/iskhod/rnd/misc_lab)
+"VL" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "10,18"
+	},
+/area/iskhod/rnd/outpostgeneral)
 "VM" = (
 /obj/structure/railing,
 /turf/simulated/floor/asteroid{
@@ -6361,6 +6428,11 @@
 /obj/machinery/suit_storage_unit/mining,
 /turf/simulated/floor/industrial/navy_slates,
 /area/mine/prep)
+"VW" = (
+/turf/simulated/shuttle/floor/mining{
+	icon_state = "9,23"
+	},
+/area/turbolift/Research/underground)
 "VY" = (
 /obj/structure/cable/ender{
 	id = "underground";
@@ -6522,7 +6594,7 @@
 "WS" = (
 /obj/machinery/atmospherics/unary/vent_pump,
 /turf/simulated/floor/industrial/grey_slates_long,
-/area/mine/atmos)
+/area/mine/lockers)
 "WU" = (
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment{
@@ -6768,6 +6840,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/mixing)
+"YA" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "7,10"
+	},
+/area/mine/lockers)
 "YC" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/structure/cable{
@@ -6776,7 +6853,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/industrial/grey_slates_long,
-/area/mine/atmos)
+/area/mine/lockers)
 "YF" = (
 /obj/random/mob/nightmare,
 /turf/simulated/floor/asteroid{
@@ -13615,12 +13692,12 @@ fA
 fA
 pZ
 fA
-TE
-TE
-TE
-TE
-TE
-TE
+gE
+gE
+gE
+gE
+gE
+gE
 gE
 Et
 Au
@@ -13816,10 +13893,10 @@ jl
 fA
 Ff
 gI
-fA
+PT
+SC
 jE
-jE
-jE
+aM
 jE
 Qt
 gE
@@ -14019,7 +14096,7 @@ XY
 Jj
 xs
 kz
-jE
+Ma
 CP
 CP
 CP
@@ -14221,7 +14298,7 @@ fA
 WS
 YC
 kz
-jE
+Ma
 CP
 CP
 CP
@@ -14423,7 +14500,7 @@ dZ
 Jj
 Qs
 kz
-jE
+Ma
 CP
 CP
 CP
@@ -14624,12 +14701,12 @@ fV
 fA
 Tk
 IV
-fA
+PT
+Ly
 jE
+UU
 jE
-jE
-jE
-jE
+YA
 gE
 gE
 Kl
@@ -14825,7 +14902,7 @@ fA
 fA
 fA
 oG
-kb
+XH
 PT
 PT
 PT
@@ -19000,11 +19077,11 @@ MV
 MV
 MV
 jA
-da
-da
-da
-da
-da
+VL
+kb
+pA
+ck
+kb
 Rb
 jA
 Bp
@@ -19202,12 +19279,12 @@ MV
 MV
 MV
 jA
-da
+Qw
 II
 II
 II
 gC
-gC
+VW
 AQ
 mW
 aA
@@ -19404,12 +19481,12 @@ MV
 MV
 MV
 jA
-da
+Qw
 II
 II
 II
 gC
-gC
+VW
 AQ
 mW
 aA
@@ -19606,12 +19683,12 @@ MV
 MV
 MV
 jA
-da
+Qw
 II
 II
 II
 gC
-gC
+VW
 AQ
 mW
 aA
@@ -19808,12 +19885,12 @@ MV
 MV
 MV
 jA
+PQ
+kb
+fs
 da
-da
-da
-da
-da
-da
+kb
+Eo
 jA
 Bp
 VE
@@ -22660,8 +22737,8 @@ iC
 iC
 iC
 iC
-vW
-vW
+iC
+iC
 vW
 vW
 vW
@@ -22862,10 +22939,10 @@ iC
 iC
 iC
 iC
-vW
-vW
-vW
-vW
+iC
+iC
+iC
+iC
 vW
 vW
 MV
@@ -23061,13 +23138,13 @@ iC
 iC
 iC
 iC
-vW
-vW
-vW
-vW
-vW
-vW
-vW
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 vW
 vW
 MV
@@ -23260,16 +23337,16 @@ NM
 iC
 iC
 iC
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 vW
 vW
 MV
@@ -23462,16 +23539,16 @@ NM
 iC
 iC
 iC
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 vW
 vW
 vW
@@ -23664,16 +23741,16 @@ NM
 iC
 iC
 iC
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 vW
 vW
 vW
@@ -23866,19 +23943,19 @@ NM
 iC
 iC
 iC
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+TE
+TE
+TE
 vW
 vW
 vW
@@ -24068,19 +24145,19 @@ NM
 iC
 iC
 iC
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+TE
+TE
+TE
 vW
 vW
 vW
@@ -24270,19 +24347,19 @@ NM
 iC
 iC
 iC
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+TE
+TE
+TE
 vW
 vW
 vW
@@ -24471,20 +24548,20 @@ WJ
 NM
 iC
 iC
-MV
-MV
-MV
-MV
-MV
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+TE
+TE
+TE
 vW
 vW
 vW
@@ -24679,14 +24756,14 @@ MV
 MV
 MV
 vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
+TE
+TE
+TE
+TE
+TE
+TE
+TE
+TE
 vW
 vW
 vW
@@ -24881,14 +24958,14 @@ MV
 MV
 MV
 vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
-vW
+TE
+TE
+TE
+TE
+TE
+TE
+TE
+TE
 vW
 vW
 vW
@@ -25086,8 +25163,8 @@ vW
 vW
 vW
 vW
-vW
-vW
+TE
+TE
 vW
 vW
 vW
@@ -25288,8 +25365,8 @@ vW
 vW
 vW
 vW
-vW
-vW
+TE
+TE
 vW
 vW
 vW
@@ -25490,8 +25567,8 @@ vW
 vW
 vW
 vW
-vW
-vW
+TE
+TE
 vW
 vW
 MV
@@ -25692,8 +25769,8 @@ vW
 vW
 vW
 vW
-vW
-vW
+TE
+TE
 vW
 vW
 vW
@@ -25894,8 +25971,8 @@ vW
 vW
 vW
 vW
-vW
-vW
+TE
+TE
 vW
 vW
 vW
@@ -26096,8 +26173,8 @@ vW
 vW
 vW
 vW
-vW
-vW
+TE
+TE
 vW
 vW
 vW
@@ -26298,12 +26375,12 @@ vW
 vW
 vW
 vW
-vW
-vW
-vW
-vW
-vW
-vW
+TE
+TE
+TE
+TE
+TE
+TE
 MV
 MV
 MV
@@ -26500,12 +26577,12 @@ vW
 vW
 vW
 vW
-vW
-vW
-vW
-vW
-vW
-vW
+TE
+TE
+TE
+TE
+TE
+TE
 vW
 vW
 vW
@@ -26702,12 +26779,12 @@ vW
 vW
 vW
 vW
-vW
-vW
-vW
-vW
-MV
-MV
+TE
+TE
+TE
+TE
+TE
+TE
 MV
 MV
 MV
@@ -26904,8 +26981,8 @@ vW
 vW
 vW
 vW
-vW
-vW
+TE
+TE
 vW
 vW
 MV
