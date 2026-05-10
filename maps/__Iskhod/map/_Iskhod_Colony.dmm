@@ -54945,6 +54945,7 @@
 /obj/effect/floor_decal/corner_techfloor_grid{
 	dir = 2
 	},
+/obj/structure/invislight,
 /turf/open/pool,
 /area/iskhod/crew_quarters/pool)
 "oJz" = (
