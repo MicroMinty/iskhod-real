@@ -397,6 +397,7 @@
 	if(..())
 		if(duration_remaining > 0)
 			duration_remaining -= 2 SECONDS
+			holder.chem_effects[CE_ANTIBIOTIC] = max(holder.chem_effects[CE_ANTIBIOTIC], 1.1)
 
 /datum/perk/second_skin
 	name = "Second Skin"
