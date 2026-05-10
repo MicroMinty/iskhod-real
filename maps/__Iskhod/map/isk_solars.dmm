@@ -228,6 +228,12 @@
 	temperature = 240
 	},
 /area/iskhod/engineering/solars)
+"hn" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "2,5";
+	opacity = 0
+	},
+/area/iskhod/engineering/solars_control)
 "hw" = (
 /obj/structure/closet/crate/solar,
 /obj/machinery/power/apc/hyper{
@@ -275,6 +281,11 @@
 /obj/item/storage/pill_bottle/dice,
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
+"kV" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "7,10"
+	},
+/area/iskhod/engineering/solars_control)
 "li" = (
 /obj/structure/flora/tree/snow/three,
 /turf/simulated/floor/snow/smooth{
@@ -289,6 +300,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/engineering/solars_control)
+"lT" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "14,21"
+	},
 /area/iskhod/engineering/solars_control)
 "lX" = (
 /obj/structure/flora/tree/snow/two,
@@ -315,6 +331,12 @@
 /obj/machinery/ntnet_relay,
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/solars_control)
+"mo" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "15,5";
+	opacity = 0
+	},
+/area/iskhod/engineering/solars_control)
 "mY" = (
 /turf/simulated/floor/fixed/hydrotile,
 /area/iskhod/engineering/solars)
@@ -338,8 +360,10 @@
 	},
 /area/turbolift/mountain/solars)
 "nz" = (
-/turf/simulated/floor/plating/under,
-/area/turbolift/mountain/solars)
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "10,18"
+	},
+/area/iskhod/engineering/solars_control)
 "nS" = (
 /obj/structure/cable/ender{
 	id = "solars";
@@ -416,6 +440,13 @@
 "qm" = (
 /obj/structure/table/bench/standard,
 /turf/simulated/floor/carpet/oracarpet,
+/area/iskhod/engineering/solars_control)
+"qs" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "15,6";
+	name = "Elevator";
+	opacity = 0
+	},
 /area/iskhod/engineering/solars_control)
 "qH" = (
 /obj/structure/cable{
@@ -844,6 +875,11 @@
 	temperature = 240
 	},
 /area/iskhod/engineering/solars)
+"Kx" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "13,15"
+	},
+/area/iskhod/engineering/solars_control)
 "KJ" = (
 /obj/structure/table/marble,
 /obj/item/storage/box/donkpockets,
@@ -1008,6 +1044,11 @@
 	temperature = 240
 	},
 /area/iskhod/engineering/solars)
+"QF" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "7,18"
+	},
+/area/iskhod/engineering/solars_control)
 "Ry" = (
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/solars_control)
@@ -1096,6 +1137,12 @@
 	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
+"Wv" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "2,6";
+	opacity = 0
+	},
+/area/iskhod/engineering/solars_control)
 "WJ" = (
 /obj/structure/salvageable/data_os,
 /turf/simulated/floor/snow/smooth{
@@ -1147,6 +1194,11 @@
 	dir = 5
 	},
 /turf/simulated/floor/plating/under,
+/area/iskhod/engineering/solars_control)
+"ZL" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "10,15"
+	},
 /area/iskhod/engineering/solars_control)
 "ZS" = (
 /obj/machinery/light{
@@ -3618,11 +3670,11 @@ oj
 pZ
 Ay
 nz
-nz
-nz
-nz
-nz
-nz
+lT
+Wv
+hn
+lT
+ZL
 Ay
 CD
 ux
@@ -3719,7 +3771,7 @@ oj
 oj
 oj
 Ay
-nz
+Kx
 Dg
 Dg
 Dg
@@ -3821,7 +3873,7 @@ oj
 ve
 oj
 Ay
-nz
+Kx
 Dg
 Dg
 Dg
@@ -3923,7 +3975,7 @@ oj
 oj
 oj
 Ay
-nz
+Kx
 Dg
 Dg
 Dg
@@ -4025,12 +4077,12 @@ pZ
 oj
 oj
 Ay
-nz
-nz
-nz
-nz
-nz
-nz
+QF
+lT
+qs
+mo
+lT
+kV
 Ay
 CD
 ux
