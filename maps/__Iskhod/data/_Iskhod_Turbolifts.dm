@@ -169,10 +169,10 @@
 	base_turf = /turf/simulated/shuttle/floor/mining
 
 /area/turbolift/mountain/colony
-	name = "Guild Solars - Colony"
-	lift_floor_label = "Iskhod Colony"
+	name = "Guild Solars - Outpost"
+	lift_floor_label = "Iskhod Outpost"
 	lift_floor_name = "Engine Room"
-	lift_announce_str = "Transition complete. Welcome to the Iskhod Colony Underground."
+	lift_announce_str = "Transition complete. Welcome to the Iskhod Outpost Underground."
 	base_turf = /turf/simulated/shuttle/floor/mining
 
 /area/turbolift/mountain/solars
@@ -218,7 +218,7 @@
 
 /area/turbolift/Research/colony
 	name = "Iskhod Research - Colony"
-	lift_floor_label = "Iskhod Colony"
+	lift_floor_label = "Iskhod Outpost"
 	lift_floor_name = "Research Colony"
 	lift_announce_str = "Transition complete."
 	base_turf = /turf/simulated/shuttle/floor/mining

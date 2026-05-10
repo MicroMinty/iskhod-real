@@ -639,7 +639,7 @@
 
 /obj/item/paper/Court
 	name = "Judgement"
-	info = "For crimes against the Iskhod colony, the offender is sentenced to:<BR>\n<BR>\n"
+	info = "For crimes against the Iskhod Outpost, the offender is sentenced to:<BR>\n<BR>\n"
 
 /obj/item/paper/crumpled
 	name = "paper scrap"
