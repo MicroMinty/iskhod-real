@@ -72,14 +72,14 @@
 			int_panel_x = stop.x + FLOOR(lift_size_x/2, 1)
 			int_panel_y = stop.y + (make_walls ? 1 : 0)
 
-			door_x1 = stop.x + 1
+			door_x1 = stop.x // + 1 // commented for testing elevator changes.
 			door_y1 = stop.y + lift_size_y
-			door_x2 = stop.x + lift_size_x - 1
+			door_x2 = stop.x + lift_size_x // - 1 // commented for testing elevator changes.
 			door_y2 = stop.y + lift_size_y
 
-			ext_door_x1 = stop.x + 1
+			ext_door_x1 = stop.x // + 1 // commented for testing elevator changes.
 			ext_door_y1 = stop.y + lift_size_y + 1
-			ext_door_x2 = stop.x + lift_size_x - 1
+			ext_door_x2 = stop.x + lift_size_x // - 1 // commented for testing elevator changes.
 			ext_door_y2 = stop.y + lift_size_y + 1
 
 			light_x1 = stop.x + (make_walls ? 1 : 0)
@@ -87,7 +87,7 @@
 			light_x2 = stop.x + lift_size_x - (make_walls ? 1 : 0)
 			light_y2 = stop.y + (make_walls ? 1 : 0)
 
-			ext_panel_x = stop.x
+			ext_panel_x = stop.x - 1 // added for testing elevator changes. previously was just "= stop.x"
 			ext_panel_y = stop.y + lift_size_y + 1
 
 		if(SOUTH)
@@ -95,14 +95,14 @@
 			int_panel_x = stop.x + FLOOR(lift_size_x/2, 1)
 			int_panel_y = stop.y + lift_size_y - (make_walls ? 1 : 0)
 
-			door_x1 = stop.x + 1
+			door_x1 = stop.x // + 1 // commented for testing elevator changes.
 			door_y1 = stop.y
-			door_x2 = stop.x + lift_size_x - 1
+			door_x2 = stop.x + lift_size_x // - 1 // commented for testing elevator changes.
 			door_y2 = stop.y
 
-			ext_door_x1 = stop.x + 1
+			ext_door_x1 = stop.x // + 1 // commented for testing elevator changes.
 			ext_door_y1 = stop.y - 1
-			ext_door_x2 = stop.x + lift_size_x - 1
+			ext_door_x2 = stop.x + lift_size_x // - 1 // commented for testing elevator changes.
 			ext_door_y2 = stop.y - 1
 
 			light_x1 = stop.x + (make_walls ? 1 : 0)
@@ -110,11 +110,11 @@
 			light_x2 = stop.x + lift_size_x - (make_walls ? 1 : 0)
 			light_y2 = stop.y + lift_size_y - (make_walls ? 1 : 0)
 
-			ext_panel_x = stop.x
+			ext_panel_x = stop.x - 1 // added for testing elevator changes. previously was just "= stop.x"
 			ext_panel_y = stop.y - 1
 
 		if(EAST)
-
+			// THESE ELEVATOR DEFINES MAY NOT BE CORRECT AS WE DONT CURRENTLY USE ANY EAST OR WEST ELEVATORS AND THE COORDS MATH HURTS MY BRAIN TOO MUCH
 			int_panel_x = stop.x + (make_walls ? 1 : 0)
 			int_panel_y = stop.y + FLOOR(lift_size_y/2, 1)
 
@@ -137,7 +137,7 @@
 			ext_panel_y = stop.y
 
 		if(WEST)
-
+			// THESE ELEVATOR DEFINES MAY NOT BE CORRECT AS WE DONT CURRENTLY USE ANY EAST OR WEST ELEVATORS AND THE COORDS MATH HURTS MY BRAIN TOO MUCH
 			int_panel_x = stop.x + lift_size_x - (make_walls ? 1 : 0)
 			int_panel_y = stop.y + FLOOR(lift_size_y/2, 1)
 
