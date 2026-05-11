@@ -736,7 +736,7 @@
 
 /obj/structure/closet/proc/make_lock_old()
 	req_access = list(access_cent_specops)
-	name = "[pick("locked", "sealed", "card reader", "access required", "eletronic")] [name]"
+	name = "[pick("locked", "sealed", "card reader", "access required", "electronic")] [name]"
 	desc += "\n "
 	desc += " The access panel looks old. It's unlikely anyone can open this without hacking or brute force."
 	hack_require = rand(1,2) //Easier to hack older locks
